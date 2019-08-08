@@ -41,33 +41,30 @@ if (preg_match("/(lundi|Lundi|mardi|Mardi|mercredi|Mercredi|jeudi|Jeudi|vendredi
 else
 	return;
 
+/* numero */
+preg_match("/[0-9]{1,2}/", $match[0], $day);
+echo "le jour =".$day[0]."\n";
 /* mois */
 preg_match("/janvier|Janvier|fevrier|Fevrier|mars|Mars|avril|Avril|mai|Mai|juin|Juin|juillet|Juiller|aout|Aout|septembre|Septembre|octobre|Octobre|novembre|Novembre|decembre|Decembre/", $match[0], $month);
 $month[0] = ft_get_month_number($month[0]);
 echo "le mois =".$month[0]."\n";
-/* numero */
-preg_match("/[0-9]{1,2}/", $match[0], $day);
-echo "le jour =".$day[0]."\n";
 /* l'annee */
 preg_match("/[0-9]{4}/", $match[0], $year);
 echo "l'annee =".$year[0]."\n";
 /* seconde */
-preg_match("//", $match[0], $year);
-echo "l'annee =".$year[0]."\n";
+preg_match("/\s[0-9]{2}:/", $match[0], $hour);
+preg_match("/[0-9]{2}/", $hour[0], $hour);
+echo "seconde =".$hour[0]."\n";
 /* minute */
-preg_match("//", $match[0], $year);
-echo "l'annee =".$year[0]."\n";
+preg_match("/:[0-9]{2}:/", $match[0], $minute);
+preg_match("/[0-9]{2}/", $minute[0], $minute);
+echo "minute =".$minute[0]."\n";
 /* heure */
-preg_match("//", $match[0], $year);
-echo "l'annee =".$year[0]."\n";
-
-$hour = 3;
-$minute = 30;
-$second = 10;
-$day = 3;
-$year = 2019;
+preg_match("/:[0-9]{2}$/", $match[0], $second);
+preg_match("/[0-9]{2}/", $second[0], $seconde);
+echo "heure =".$seconde[0]."\n";
 
 
-$time = mktime($hour, $minute, $second, $month[0], $day[0], $year);
+$time = mktime($hour[0], $minute[0], $seconde[0], $month[0], $day[0], $year[0]);
 echo $time;
 ?>
