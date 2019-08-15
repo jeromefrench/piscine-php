@@ -52,11 +52,11 @@ function __construct(array $kwargs) {
 	}
 }
 function __destruct() {
-			print( "Color( red: ".$this->red.", green: ".$this->green.", blue: ". $this->blue." ) destructed.". PHP_EOL );
+			/* print( "Color( red: ".$this->red.", green: ".$this->green.", blue: ". $this->blue." ) destructed.". PHP_EOL ); */
 	return;
 }
 function __toString() {
-	return( "Color( red: ".$this->red.", green: ".$this->green.", blue: ". $this->blue." )" );
+	/* return( "Color( red: ".$this->red.", green: ".$this->green.", blue: ". $this->blue." )" ); */
 }
 
 function add($to_add) {
@@ -71,34 +71,33 @@ function mult() {
 }
 }
 
-/* $instance1 = new Color( array('rgb' => 0xff00ff) ); */
-print("hello" . PHP_EOL);
-print(Color::doc());
-Color::$verbose = True;
+/* print("hello" . PHP_EOL); */
+/* print(Color::doc()); */
+/* Color::$verbose = True; */
 
-$red     = new Color( array( 'red' => 0xff, 'green' => 0   , 'blue' => 0    ) );
-$green   = new Color( array( 'rgb' => 255 << 8 ) );
-$blue    = new Color( array( 'red' => 0   , 'green' => 0   , 'blue' => 0xff ) );
+/* $red     = new Color( array( 'red' => 0xff, 'green' => 0   , 'blue' => 0    ) ); */
+/* $green   = new Color( array( 'rgb' => 255 << 8 ) ); */
+/* $blue    = new Color( array( 'red' => 0   , 'green' => 0   , 'blue' => 0xff ) ); */
 
-echo "on passe au add". PHP_EOL;
+/* echo "on passe au add". PHP_EOL; */
 
-$yellow  = $red->add( $green );
-$cyan    = $green->add( $blue );
-$magenta = $blue->add( $red );
+/* $yellow  = $red->add( $green ); */
+/* $cyan    = $green->add( $blue ); */
+/* $magenta = $blue->add( $red ); */
 
-echo "on passe au white". PHP_EOL;
-$white   = $red->add( $green )->add( $blue );
+/* echo "on passe au white". PHP_EOL; */
+/* $white   = $red->add( $green )->add( $blue ); */
 
-echo "on passe au print". PHP_EOL;
-print( $red     . PHP_EOL );
-print( $green   . PHP_EOL );
-print( $blue    . PHP_EOL );
-print( $yellow  . PHP_EOL );
-print( $cyan    . PHP_EOL );
-print( $magenta . PHP_EOL );
-print( $white   . PHP_EOL );
+/* echo "on passe au print". PHP_EOL; */
+/* print( $red     . PHP_EOL ); */
+/* print( $green   . PHP_EOL ); */
+/* print( $blue    . PHP_EOL ); */
+/* print( $yellow  . PHP_EOL ); */
+/* print( $cyan    . PHP_EOL ); */
+/* print( $magenta . PHP_EOL ); */
+/* print( $white   . PHP_EOL ); */
 
-Color::$verbose = False;
+/* Color::$verbose = False; */
 
 
 ?>
