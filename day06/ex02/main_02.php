@@ -31,6 +31,7 @@ print( $vtcXunit . PHP_EOL );
 print( $vtcYunit . PHP_EOL );
 print( $vtcZunit . PHP_EOL );
 
+
 $dest1 = new Vertex( array( 'x' => -12.34, 'y' => 23.45, 'z' => -34.56 ) );
 Vertex::$verbose = True;
 $vtc1  = new Vector( array( 'dest' => $dest1 ) );

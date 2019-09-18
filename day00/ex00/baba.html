@@ -9,6 +9,7 @@ body{
 h1{
 	color:white;
 	text-align:center;
+	font-size:30px;
 }
 img{
 	height:100px;
@@ -23,16 +24,33 @@ img{
 	font-style:italic;
 	font-family:"Courier New";
 }
+
+.en_ligne{
+	display:inline-block;
+}
+
+.la_class{
+	width:650px;
+}
+
 		</style>
+
+
 	</head>
 	<body>
-		<h1>Mon titré</h1>
-		hello<br/>
-		<img src="./amazon.jpg">
-		<img src="./ebay.png">  <br/>
+		<h1>Mon titre accentué</h1>
 
-		<a href="http://amazon.com">Lien vers Amazon</a>
-		<a href="http://ebay.com">Lien vers Ebay</a>
+		<div class="la_class">
+			<p class="en_ligne">
+				<img src="./amazon.jpg" alt="image amazone" />  <br/>
+				<a href="http://amazon.com">Lien vers Amazon</a>
+			</p>
+
+			<p class="en_ligne">
+				<img src="./ebay.png" alt="image ebay" />  <br/>
+				<a href="http://ebay.com">Lien vers Ebay</a>
+			</p>
+		</div>
 
 		<div id="barre"></div>
 		<div id="copy">

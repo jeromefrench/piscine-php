@@ -1,56 +1,87 @@
 body{
 	background-color:rgb(80,80,80);
 }
-#header, #left_panel, #right_panel, #main{
+
+#header, .panel, #main{
 	background-color:rgb(144,144,144);
-}
-.shadow{
 	box-shadow: 6px 6px 6px black;
     border-radius: 10px;
-}
-.la_flex{
-	width:1400px;
-	margin:auto;
-}
-
-#left_panel, #main, #right_panel{
-	display:inline-block;
-	vertical-align: top;
-}
-
-#left_panel, #header, #main, #right_panel{
 	margin:15px;
 }
 
-#main{
-	width:1000px;/*boooof*/
+.la_flex{
+	width:1421px;
+	margin:auto;
 }
 
-#main img{
-	max-width:100%;
-	max-height:100%;
-}
-
-.element img{
-	max-width:100%;
-	max-height:100%;
+#main, .panel{
+	display:inline-block;
+	vertical-align: top;
 }
 
 .main_image{
 	margin:15px;
 }
 
-#left_panel .element{
-	height:80px;
-	width:80px;
-	margin:25px
-}
-#right_panel .element{
-	height:80px;
-	width:80px;
-	margin:25px
+.main_image img{
+	/* height:826px; */
+	/* border:red 2px solid; */
 }
 
+
+.element img{
+	max-width:100%;
+	max-height:100%;
+	/* border:pink 2px solid; */
+}
+
+.panel .element{
+	height:80px;
+	width:100px;
+	margin:10px;
+	/* border:blue 2px solid; */
+}
+
+.panel .element img{
+	height:70px;
+	width:70px;
+/* //to align img in a div */
+	display:block;
+    margin:auto;
+	/* border:red 2px solid; */
+}
+
+#towel {
+	height:60px;
+	width:60px;
+}
+
+.atowel{
+	height:60px;
+	width:60px;
+	/* border:yellow 6px solid; */
+	display:block;
+	margin:auto;
+}
+
+.abrick{
+	height:60px;
+	width:100px;
+	/* border:yellow 6px solid; */
+	display:block;
+	margin:auto;
+	background-image:url("resources/brick.jpg");
+}
+
+.abrick img{
+	/* pour avoir le nom */
+	opacity: 0.0;
+}
+
+
+
+
+/*################################ header */
 #header{
 	position: relative;
 	width:1421px;
@@ -59,15 +90,9 @@ body{
 }
 #day_42{
 	margin-left:30px;
-	height:138px;  /*boooof*/
+	height:138px;
 }
 
-#reload, #close{
-	position:absolute;
-	height:20px;
-	width:20px;
-	right:10px;
-}
 #loop{
 	position:absolute;
 	right:30px;
@@ -77,6 +102,15 @@ body{
 #reload{
 	top:10px;
 }
+
 #close{
 	bottom:10px;
 }
+
+#reload, #close{
+	position:absolute;
+	height:20px;
+	width:20px;
+	right:10px;
+}
+

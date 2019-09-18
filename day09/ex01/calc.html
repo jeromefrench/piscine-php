@@ -1,0 +1,95 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- calc.html                                          :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: jchardin <jerome.chardin@outlook.com>      +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2019/09/16 14:46:11 by jchardin          #+#    #+#            -->
+<!-- Updated: 2019/09/17 10:08:51 by jchardin         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<html>
+	<head>
+		<title>Exercice 01</title>
+	</head>
+	<body>
+		<input id="numb_left" type="text" name="left">
+		<select id="operator" name="calcul">
+			<option value="plus">+</option>
+			<option value="moins">-</option>
+			<option value="time" selected>*</option>
+			<option value="divide">/</option>
+			<option value="modulo">%</option>
+		</select>
+		<input id="numb_right" type="text" name="right">
+		<input id="demo" type="submit" name="calcul" value="Try me">
+		<p id="text"></p>
+
+
+	</body>
+	<script>
+		setInterval(function(){ alert("Please, use me..."); }, 1000 * 30);
+
+		var my_element = document.getElementById("demo");
+		my_element.addEventListener("click", myFunction);
+
+		function myFunction(){
+			var numb_left;
+			var numb_right;
+			var result;
+			var operator;
+			var text;
+
+			numb_left = document.getElementById("numb_left").value;
+			numb_right = document.getElementById("numb_right").value;
+			operator = document.getElementById("operator").value;
+			if (numb_left < 0 || numb_right < 0)
+			{
+				alert("Error :(");
+				return;
+			}
+
+			if (operator == "plus")
+			{
+				result = numb_left + numb_right;
+			}
+			else if (operator == "moins")
+			{
+				result = numb_left - numb_right;
+			}
+			else if (operator == "time")
+			{
+				result = numb_left * numb_right;
+			}
+			else if (operator == "divide")
+			{
+				if (numb_right == 0)
+				{
+					alert("It's over 9000!");
+					console.log("It's over 9000!");
+					return;
+				}
+
+				result = numb_left / numb_right;
+			}
+			else if (operator == "modulo")
+			{
+				if (numb_right == 0)
+				{
+					alert("It's over 9000!");
+					console.log("It's over 9000!");
+					return;
+				}
+				result = numb_left % numb_right;
+			}
+			else
+			{
+				//error
+			}
+			alert("The result is : "+result);
+			console.log(result);
+		}
+	</script>
+</html>

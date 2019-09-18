@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 if ($argc > 1)
 {
@@ -5,6 +6,7 @@ if ($argc > 1)
 	$i = 0;
 	foreach ($argv as $val)
 	{
+		$val = trim($val);
 		if ($i > 1)
 			$str = $str." ".$val;
 		else if ($i > 0)
@@ -32,7 +34,7 @@ if ($argc > 1)
 		}
 	}
 	foreach ($array as $val)
-		echo $val."\n";
+		echo $val.PHP_EOL;
 }
 else
 {

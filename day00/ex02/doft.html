@@ -1,22 +1,27 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>Exercice 2</title>
+		<title>Exercice 02</title>
 		<link rel="stylesheet" href="doft.css" />
 	</head>
 	<body>
 
+
+
 		<div id="header" class="shadow">
-			<div class="element" id="day_42"> <img src="resources/day_of_the_42.png"/></div>
-			<div class="element" id="loop"> <img src="resources/loupe.png"/></div>
+			<div class="element" id="day_42"> <img src="resources/day_of_the_42.png" alt="day_42" title="day_42"/></div>
+			<div class="element" id="loop"> <img src="resources/loupe.png" alt="loupe" title="loupe"/></div>
 			<div class="icon">
 				<div class="element" id="reload"><a href="http://www.disney.com" ><img src="resources/reload.png" alt="Recommencer au début" title="Recommencer au début"/></a></div>
 				<div class="element" id="close"><a href="http://www.relaischateaux.com"><img src="resources/close.gif" alt"Déconnecter" title="Déconnecter"/></a></div>
 			</div>
 		</div>
 
+
+
 		<div class="la_flex">
-			<div id="left_panel" class="shadow">
+
+			<div class="panel left" class="shadow">
 				<div class="element"> <img src="resources/arrow.png" alt="Avancer" title="Avancer"/></div>
 				<div class="element"> <img src="resources/main.png" alt="Prendre" title="Prendre"/></div>
 				<div class="element"> <img src="resources/oeil.png" alt="Regarder" title="Regarder"/></div>
@@ -24,15 +29,28 @@
 				<div class="element"> <img src="resources/chat-icon.png" alt="Parler" title="Parler"/></div>
 			</div>
 
+
 			<div id="main" class="shadow">
-				<div class="main_image"> <img src="resources/cluster.jpg"/></div>
+				<div class="main_image"> <img src="resources/cluster.jpg" alt="Cluster" title="Cluster" usemap="#planetmap" /></div>
 			</div>
 
-			<div id="right_panel" class="shadow">
+			<map name="planetmap">
+				<area shape="rect" coords="810,320,1000,478" href="http://www.apple.com" alt="Apple" title="Apple">
+				<area shape="rect" coords="330,333,476,575" href="http://www.ikea.com" alt="Ikea" title="Ikea">
+			</map>
+
+
+
+			<div class="panel right" class="shadow">
 				<div class="element"> <img src="resources/book.png" alt="Book" title="Book"/></div>
-				<div class="element"> <img src="resources/towel.png" alt="Towel" title="Towel"/></div>
-				<div class="element"> <img src="resources/brick.jpg" alt="Brick" title="Brick"/></div>
+				<div class="atowel"> <img id="towel" src="resources/towel.png" alt="Towel" title="Towel"/></div>
+				<div class="abrick">  <img id="towel" src="resources/brick.jpg" alt="Brick" title="Brick"/></div>
+				<div class="element"></div>
+				<div class="element"></div>
 			</div>
+
+
+
 		</div>
 	</body >
 </html>

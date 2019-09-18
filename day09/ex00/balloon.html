@@ -1,0 +1,52 @@
+
+<html>
+	<head>
+		<title>Exercice 00</title>
+		<style>
+div{
+	background-color:red;
+	width:200px;
+	height:200px;
+	border-radius:100px;
+}
+		</style>
+	</head>
+	<body>
+		<div id="demo"></div>
+	</body>
+		<script>
+			var size = 200;
+			var color_id = 0;
+			var color = ["red", "green", "blue"];
+			var my_element = document.getElementById("demo");
+
+			my_element.addEventListener("click", myFunction);
+			my_element.addEventListener("mouseout", myFunction_bis);
+			function myFunction_bis() {
+				size -= 10;
+				if (size < 200)
+					size = 200;
+				color_id -= 1;
+				if (color_id < 0)
+					color_id = 2;
+				apply();
+			}
+			function myFunction() {
+				size += 10;
+				if (size > 420)
+					size = 200;
+				color_id += 1;
+				if (color_id > 2)
+					color_id = 0;
+				apply();
+			}
+			function apply() {
+				my_element.style.backgroundColor = color[color_id];
+				my_element.style.width = size+"px";
+				my_element.style.height = size+"px";
+				my_element.style.borderRadius = (size/2)+"px";
+			}
+
+		</script>
+
+</html>

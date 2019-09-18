@@ -1,0 +1,85 @@
+table{
+	/* width:100; */
+	width:90%;
+	height:90%;
+	margin-left:5vw;
+}
+
+.weight{
+	font-size:1vh;
+	text-align:right;
+}
+.elem{
+	font-size:2vh;
+	font-weight:bold;
+	text-align:center;
+}
+.num{
+	font-size:1vh;
+	text-align:left;
+}
+tr{
+}
+p{
+	margin:3px;
+}
+td{
+	border:1px solid black;
+	width:2%;
+	height:2%;
+}
+
+.space{
+	/* margin-top:90px; */
+	height:5%;
+	border:white;
+}
+.none{
+	border:none;
+}
+.alkali_metal{
+	color:white;
+	background-color:red;
+}
+.alkaline_earth_metal{
+	background-color:orange;
+	color:white;
+}
+.transition_metal{
+	background-color:LightSkyBlue;
+}
+.lanthanides{
+	background-color:SteelBlue;
+}
+.actinides{
+	background-color:SpringGreen;
+}
+.post_transiton_metal{
+	background-color:purple;
+}
+.metalloid{
+	background-color:yellow;
+}
+.reactive_nonmetal{
+	background-color:YellowGreen;
+}
+.noble_gaz{
+	background-color:pink;
+}
+.unknow{
+	background-color:grey;
+}
+h1{
+	display:inline;
+	margin:120px;
+	padding:30px;
+}
+img{
+	display:inline;
+}
+body{
+	background-image:url(./image.jpg);
+	background-repeat:no-repeat;
+	background-position:160px 70px;
+}
+

@@ -1,0 +1,56 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- index.html                                         :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: jchardin <jerome.chardin@outlook.com>      +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2019/09/17 10:13:33 by jchardin          #+#    #+#            -->
+<!-- Updated: 2019/09/17 14:29:36 by jchardin         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<html>
+	<head>
+		<title>Exercice 02</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<div id="ft_list" >
+			<div>
+			</div>
+		</div>
+
+			<input id="new" type="submit" value="New"/>
+	</body>
+
+	<script>
+
+		var my_listElem;
+		var my_submitElem;
+		var my_todoTab = [];
+		var inner_text = "";
+		var i;
+
+		my_submitElem = document.getElementById("new");
+		my_submitElem.addEventListener("click", new_todo);
+
+		my_listElem = document.getElementById("ft_list");
+		my_listElem.innerHTML = "bonjour";
+
+		function new_todo()
+		{
+			var text = prompt("Pleade enter your to do element");
+			var div = document.createElement("div");
+			div.innerHTML = text;
+			div.addEventListener("click", ft_delete);
+			my_listElem.insertBefore(div, my_listElem.firstChild);
+		}
+		function ft_delete()
+		{
+			var text = prompt("Etes vous sure ?");
+			if (text == "ou")
+				this.parentElement.removeChild(this);
+		}
+	</script>
+</html>

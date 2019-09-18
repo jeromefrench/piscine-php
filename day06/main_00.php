@@ -2,7 +2,6 @@
 
 require_once 'Color.class.php';
 
-
 print( Color::doc() );
 Color::$verbose = True;
 
@@ -24,7 +23,8 @@ print( $cyan    . PHP_EOL );
 print( $magenta . PHP_EOL );
 print( $white   . PHP_EOL );
 
-Color::$verbose = False;
+Color::$verbose = True;//False;
+print("hello");
 
 $black = $white->sub( $red )->sub( $green )->sub( $blue );
 print( 'Black: ' . $black . PHP_EOL );
@@ -38,5 +38,4 @@ print( 'lightgrey: ' . $lightgrey . PHP_EOL );
 
 $random = new Color( array( 'red' => 12.3, 'green' => 31.2, 'blue' => 23.1 ) );
 print( 'random: ' . $random . PHP_EOL );
-
 ?>
