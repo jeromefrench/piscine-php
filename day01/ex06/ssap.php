@@ -38,7 +38,5 @@ if ($argc > 1)
 }
 else
 {
-	echo "not enough argument buddy\n";
-	return;
 }
 ?>

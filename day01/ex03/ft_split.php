@@ -1,6 +1,5 @@
-#!/usr/bin/php
 <?php
-function ft_split($str)
+function ft_split($str): array
 {
 	while ((strstr($str, "  ")) != false)
 		$str = str_replace("  ", " ", trim($str));
@@ -8,7 +7,6 @@ function ft_split($str)
 	$i = 0;
 	while ($i < count($array) - 1)
 	{
-		echo "hello\n";
 		if ($array[$i] == ' ')
 		{
 			array_splice($array, $i);
@@ -26,5 +24,5 @@ function ft_split($str)
 	}
 	return($array);
 }
-/* var_dump(ft_split(" ddd aaa ccc             zz    a      ")); */
+/* print_r(ft_split(" ddd aaa ccc     A        zz    a")); */
 ?>

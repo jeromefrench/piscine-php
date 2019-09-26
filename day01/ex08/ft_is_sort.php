@@ -1,7 +1,6 @@
-#!/usr/bin/php
 <?php
 
-function ft_is_sort($array)
+function ft_is_sort($array): bool
 {
 	$i = 0;
 	$tmp = "";
@@ -14,27 +13,31 @@ function ft_is_sort($array)
 		}
 		else
 		{
-			echo "le tmp  :".$tmp.PHP_EOL;
-			echo "le val  :".$val.PHP_EOL;
+			/* echo "le tmp  :".$tmp.PHP_EOL; */
+			/* echo "le val  :".$val.PHP_EOL; */
 			if (strcmp($tmp, $val) < 0)
 			{
 				$tmp = $val;
 			}
 			else
 			{
-				return (0);
+				return (false);
 			}
 		}
 	}
-	return (1);
+	return (true);
 }
 
 
 /* $tab = array("!/@#;^", "42", "Hello World", "salut", "zZzZzZz"); */
-$tab = array("a", "d", "c");
-if (ft_is_sort($tab))
-echo "Le tableau est trie\n";
-else
-echo "Le tableau n’est pas trie\n";
+/* $tab = array("z", "a", "b"); */
+
+
+/* print_r($tab); */
+
+/* if (ft_is_sort($tab)) */
+/* echo "Le tableau est trie\n"; */
+/* else */
+/* echo "Le tableau n’est pas trie\n"; */
 
 ?>

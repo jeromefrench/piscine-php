@@ -1,3 +1,4 @@
 <?php
-header('<html><body>Hello</body></html>');
+header("Content-type: text/plain");
 ?>
+<html><body>Hello</body></html>

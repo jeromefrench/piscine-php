@@ -7,5 +7,6 @@ while (strstr($str, "\t") != false)
 	$str = str_replace("\t", " ", $str);
 while (strstr($str, "  ") != false)
 	$str = str_replace("  ", " ", $str);
+$str = trim($str);
 echo $str."\n";
 ?>

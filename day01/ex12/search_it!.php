@@ -1,6 +1,10 @@
 #!/usr/bin/php
 <?php
 
+if ($argc < 3)
+	exit(0);
+
+
 $i = 0;
 foreach ($argv as $val)
 {

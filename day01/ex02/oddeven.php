@@ -10,11 +10,11 @@ while (1)
 	if (is_numeric($input))
 	{
 		if ($input % 2 == 0)
-			echo "Le chiffre ".$input." est pair".PHP_EOL;
+			echo "Le chiffre ".$input." est Pair".PHP_EOL;
 		else
-			echo "Le chiffre ".$input." est impair".PHP_EOL;
+			echo "Le chiffre ".$input." est Impair".PHP_EOL;
 	}
 	else
-		echo $input." n'est pas un chiffre".PHP_EOL;
+		echo "'".$input."' n'est pas un chiffre".PHP_EOL;
 }
 ?>

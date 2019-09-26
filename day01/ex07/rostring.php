@@ -6,20 +6,24 @@
 		while ((strstr($str, "  ")) != false)
 			$str = str_replace("  ", " ", trim($str));
 		$array = explode(" ", $str);
-		$tmp = $array[0];
-		$array[0] = $array[count($array) - 1];
-		$array[count($array) - 1] = $tmp;
+
+
+		$array[count($array)] = $array[0];
 		$i = 0;
 		foreach ($array as $val)
 		{
-			if ($i == 0)
+			if ($i == 1)
 			{
 			echo $val;
 			$i++;
 			}
-			else
+			else if ($i > 1)
 			{
 				echo " ".$val;
+			}
+			else
+			{
+				$i++;
 			}
 		}
 		echo PHP_EOL;
