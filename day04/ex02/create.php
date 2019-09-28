@@ -7,18 +7,18 @@ $i = 0;
 if ($str != false)
 {
 	$objet = unserialize($str,array('allowed_classes'=>false));
-if ($objet != false)
-{
-foreach ($objet as $user)
-{
-	if ($user['login'] == $_POST['login'])
+	if ($objet != false)
 	{
-		echo "error\n";
-		return; 
+		foreach ($objet as $user)
+		{
+			if ($user['login'] == $_POST['login'])
+			{
+				echo "error\n";
+				return; 
+			}
+			$i++;
+		}
 	}
-	$i++;
-}
-}
 }
 $user['login'] = $_POST['login'];
 $user['passwd'] = hash('sha256', $_POST['passwd']);

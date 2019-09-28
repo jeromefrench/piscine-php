@@ -6,8 +6,6 @@
 	</head>
 	<body>
 
-
-
 		<div id="header" class="shadow">
 			<div class="element" id="day_42"> <img src="resources/day_of_the_42.png" alt="day_42" title="day_42"/></div>
 			<div class="element" id="loop"> <img src="resources/loupe.png" alt="loupe" title="loupe"/></div>
@@ -17,29 +15,29 @@
 			</div>
 		</div>
 
-
-
 		<div class="la_flex">
 
 			<div class="panel left" class="shadow">
 				<div class="element"> <img src="resources/arrow.png" alt="Avancer" title="Avancer"/></div>
 				<div class="element"> <img src="resources/main.png" alt="Prendre" title="Prendre"/></div>
-				<div class="element"> <img src="resources/oeil.png" alt="Regarder" title="Regarder"/></div>
+				<div class="element" > <img id="regarder" src="resources/oeil.png" alt="Regarder" title="Regarder"/></div>
 				<div class="element"> <img src="resources/outil.png" alt="Utiliser" title="Utiliser"/></div>
 				<div class="element"> <img src="resources/chat-icon.png" alt="Parler" title="Parler"/></div>
 			</div>
-
 
 			<div id="main" class="shadow">
 				<div class="main_image"> <img src="resources/cluster.jpg" alt="Cluster" title="Cluster" usemap="#planetmap" /></div>
 			</div>
 
+
+
+
+
+
 			<map name="planetmap">
 				<area shape="rect" coords="810,320,1000,478" href="http://www.apple.com" alt="Apple" title="Apple">
-				<area shape="rect" coords="330,333,476,575" href="http://www.ikea.com" alt="Ikea" title="Ikea">
+					<area shape="rect" coords="330,333,476,575" href="http://www.ikea.com" alt="Ikea" title="Ikea">
 			</map>
-
-
 
 			<div class="panel right" class="shadow">
 				<div class="element"> <img src="resources/book.png" alt="Book" title="Book"/></div>
@@ -51,6 +49,14 @@
 
 
 
+				<div class="prompt">
+					Vous <span id="entrez">entrez</span> alors dans une grande piece remplie</br>
+					d'<span id="ordi">ordinateurs</span>...</br>
+					- <i>Bonjour, vous êtes nouveau ici ?</i></br>
+					<input type="text"><input type="submit" value="Repondre">
+				</div>
 		</div>
+
+
 	</body >
 </html>

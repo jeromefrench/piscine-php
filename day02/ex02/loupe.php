@@ -52,6 +52,8 @@ function traitement_link($str)
 	return ($result[0]);
 }
 
+if ($argc == 1)
+	return;
 $str = $argv[1];
 /* echo "AAAAAAAAAAAAAAAAAAAAAA\n\n"; */
 $result = preg_replace_callback("/<a.*>.*<\/a>/i", 'traitement_title', $str);
