@@ -1,0 +1,46 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- ajax.html                                          :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: jchardin <jerome.chardin@outlook.com>      +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2019/09/18 15:17:41 by jchardin          #+#    #+#            -->
+<!-- Updated: 2019/09/19 10:47:08 by jchardin         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+		<title>Test ajax</title>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+	<body>
+
+		<span id="my_span">Try me!</span>
+
+		<script>
+			$('document').ready(function(){
+
+
+				$('#my_span').click(function()
+				{
+
+					//get va lancer une requete ajax (aynchronou javascript)
+					//va interoger un script sur le serveur
+
+				alert("hello");
+
+
+					$.get('test.php?test=ok', function(data, status) //la fonction de rappelle   data c'est les donne status c'est pour savoir si tout c'est passe
+
+					{
+						alert("Data: " + data + "\nStatus: " + status);
+					})
+				});
+			});
+		</script>
+	</body>
+</html>

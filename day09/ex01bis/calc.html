@@ -1,0 +1,93 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- calc.html                                          :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: jchardin <jerome.chardin@outlook.com>      +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2019/09/18 10:25:44 by jchardin          #+#    #+#            -->
+<!-- Updated: 2019/09/18 11:36:23 by jchardin         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<html>
+	<head>
+		<title>Exercie 01 bis</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+
+		<input id="numb_left" type="text"/>
+		<select id="operator">
+			<option value="plus">+</option>
+			<option value="moins">-</option>
+			<option value="time" selected>*</option>
+			<option value="divide">/</option>
+			<option value="modulo">%</option>
+		</select>
+		<input id="numb_right" type="text"/>
+		<input type="submit">
+
+		<script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+		</script>
+		<script>
+			$(document).ready(function()
+				{
+					var $numb_left = $('#numb_left');
+					var $numb_right = $('#numb_right');
+					var $operator = $('#operator');
+					var $result;
+
+
+					$('input[type=submit]').click(myFunction);
+					function myFunction()
+					{
+			if ($numb_left.val() < 0 || $numb_right.val() < 0)
+			{
+				alert("Error :(");
+				return;
+			}
+			if ($operator == "plus")
+			{
+				$result= $numb_left.val() + $numb_right.val();
+			}
+			else if ($operator.val() == "moins")
+			{
+				$result= $numb_left.val() - $numb_right.val();
+			}
+			else if ($operator.val() == "time")
+			{
+				$result= $numb_left.val() * $numb_right.val();
+			}
+			else if ($operator.val() == "divide")
+			{
+				if ($numb_right.val() == 0)
+				{
+					alert("It's over 9000!");
+					console.log("It's over 9000!");
+					return;
+				}
+
+				$result= $numb_left.val() / $numb_right.val();
+			}
+			else if ($operator.val() == "modulo")
+			{
+				if ($numb_right.val() == 0)
+				{
+					alert("It's over 9000!");
+					console.log("It's over 9000!");
+					return;
+				}
+				$result= $numb_left.val() % $numb_right.val();
+			}
+			else
+			{
+				//error
+			}
+			alert("The result is : "+$result);
+			console.log($result);
+					}
+				});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- index.html                                         :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: jchardin <jerome.chardin@outlook.com>      +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2019/09/18 11:55:47 by jchardin          #+#    #+#            -->
+<!-- Updated: 2019/09/18 14:10:54 by jchardin         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+
+<html>
+	<head>
+		<title>Exercice 02 bis</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+
+		<div id="list" >
+		</div>
+			<input id="new" type="submit" value="New"/>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script>
+				$(document).ready(function (){
+					$('input[type=submit]').click(myFunction);
+					$('#list').on('click', '.todo',  function(e){ ft_delete(e) });
+
+					function myFunction()
+					{
+						var text = prompt("Pleade enter your to do element");
+						$('#list').append('<div class="todo">'+text+'</div>').click(ft_delete);
+					}
+					function ft_delete(e)
+					{
+						e.stopPropagation();
+						var text = prompt("Etes vous sure ?");
+						if (text == "oui")
+							e.target.remove();
+					}
+				});
+			</script>
+	</body>
+</html>
