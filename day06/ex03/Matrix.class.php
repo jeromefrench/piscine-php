@@ -102,23 +102,14 @@ class Matrix {
 			$this->matrix[0][0] = 0;
 		}
 
-
-
-
-
 		if (self::verbose == True)
 		{
 			echo "";
 		}
-
 	}
-
-
 	private function ft_make_identity()
 	{
 	}
-
-
 	public function __destruc()
 	{
 		if (self::verbose == True)
@@ -140,8 +131,6 @@ class Matrix {
 	public function transformVertex(Vertex $vtx) : Vertex
 	{
 	}
-
-
 }
 
 ?>
