@@ -1,36 +1,23 @@
 <?php
-//isset ??? allowed
 session_start();
 
-if(isset($_GET))
+if($_GET != null && $_GET['submit'] != null && $_GET['submit'] = "OK")
 {
-	if (isset($_GET['submit']))
-	{
-		if ($_GET['submit'] == "OK")
-		{
-			if(isset($_GET['login']))
-			{
-				$_SESSION['login'] = $_GET['login'];
-			}
-			if(isset($_GET['passwd']))
-			{
-				$_SESSION['passwd'] = $_GET['passwd'];
-			}
-		}
-	}
-	$login = $_SESSION['login'] ?? "";
-	$passwd = $_SESSION['passwd'] ?? "";
+	if($_GET['login'] != null)
+		$_SESSION['login'] = $_GET['login'];
+	if($_GET['passwd'] != null)
+		$_SESSION['passwd'] = $_GET['passwd'];
 }
-
+$login = $_SESSION['login'] ?? "";
+$passwd = $_SESSION['passwd'] ?? "";
 ?>
 
 <html>
 <head>
-<meta charset="utf8" />
+<meta charset="utf-8" />
 <title>Exercice 00</title>
 </head>
 <body>
-
 <?php
 echo <<<HTML
 <form action="index.php" method="get">
@@ -39,7 +26,6 @@ echo <<<HTML
 	<p><input type="submit" name="submit" value="OK" ></p>
 </form>
 HTML;
-
 ?>
 </body>
 </html>

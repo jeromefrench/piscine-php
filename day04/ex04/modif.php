@@ -54,4 +54,6 @@ if (!$change)
 }
 $str = serialize($global_array);
 file_put_contents("./../private/passwd", $str);
+header("Location: index.html");
 ?>
+

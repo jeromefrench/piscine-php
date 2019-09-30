@@ -46,5 +46,7 @@ else
 	$str = serialize($global_array);
 	file_put_contents("./../private/passwd", $str);
 	echo "OK\n";
+	header("Location: index.html");
 }
 ?>
+

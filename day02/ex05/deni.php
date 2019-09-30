@@ -27,6 +27,14 @@ $index = array_search($argv[2], $header);
 if ($index == false)
 	exit(0);
 
+echo $index;
+
+
+
+
+
+
+
 while (!feof(STDIN))
 {
 	echo "Entrez votre commande".PHP_EOL;
