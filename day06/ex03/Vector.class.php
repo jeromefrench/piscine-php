@@ -54,18 +54,20 @@ class Vector {
 		$this->_w = $this->_dest->getW() - $this->_orig->getW();
 		if (self::$verbose)
 		{
-			print ("Vector ( x: ".sprintf("%1.2f", $this->getX()).
-						   " y: ".sprintf("%1.2f", $this->getY()).
-						   " z: ".sprintf("%1.2f", $this->getZ()).
-						   " w: ".sprintf("%1.2f", $this->getW()).") constructed".PHP_EOL);
+			/* print ("Vector ( x: ".sprintf("%1.2f", $this->getX()). */
+			/* 			   " y: ".sprintf("%1.2f", $this->getY()). */
+			/* 			   " z: ".sprintf("%1.2f", $this->getZ()). */
+			/* 			   " w: ".sprintf("%1.2f", $this->getW()).") constructed".PHP_EOL); */
 		}
 	}
-	public function magnitude() :float{   //retourne la longueur (ou norme) du vecteur
+
+	public function magnitude() {   //retourne la longueur (ou norme) du vecteur
 		$result = $this->_x * $this->_x + $this->_y * $this->_y + $this->_z * $this->_z;
 		$result = sqrt($result);
 		return ($result);
 	}
-	public function normalize() :Vector{  //retourne le vecteur normalise
+	public function normalize()// :Vector
+	{  //retourne le vecteur normalise
 		$vertex = New Vertex(array('x' => 0, 'y' => 0, 'z' => 0));
 		$norm = $this->magnitude();
 		if ($norm != 0)
@@ -81,7 +83,8 @@ class Vector {
 		}
 		return ($result);
 	}
-	public function add(Vector $rhs) :Vector{ //somme de deux vecteur
+	public function add(Vector $rhs)// :Vector
+	{ //somme de deux vecteur
 		$vertex = New Vertex(array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1));
 		$vertex->setX($this->_x + $rhs->_x);
 		$vertex->setY($this->_y + $rhs->_y);
@@ -89,7 +92,8 @@ class Vector {
 		$result = new Vector(    array( 'dest' => $vertex)   );
 		return ($result);
 	}
-	public function sub(Vector $rhs) :Vector{ //difference de deux vecteur
+	public function sub(Vector $rhs)// :Vector
+	{ //difference de deux vecteur
 		$vertex = New Vertex(array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1));
 		$vertex->setX($this->_x - $rhs->_x);
 		$vertex->setY($this->_y - $rhs->_y);
@@ -97,7 +101,8 @@ class Vector {
 		$result = new Vector(    array( 'dest' => $vertex)   );
 		return ($result);
 	}
-	public function opposite() :Vector{ // le vecteur oppose
+	public function opposite()// :Vector
+	{ // le vecteur oppose
 		$vertex = New Vertex(array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1));
 		$vertex->setX($this->_x * -1);
 		$vertex->setY($this->_y * -1);
@@ -105,7 +110,8 @@ class Vector {
 		$result = new Vector(    array( 'dest' => $vertex)   );
 		return ($result);
 	}
-	public function scalarProduct($k) :Vector{ //le produit du vecteur avec un scalaire
+	public function scalarProduct($k)// :Vector
+	{ //le produit du vecteur avec un scalaire
 		$vertex = New Vertex(array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1));
 		$vertex->setX($this->_x * $k);
 		$vertex->setY($this->_y * $k);
@@ -113,11 +119,13 @@ class Vector {
 		$result = new Vector(    array( 'dest' => $vertex)   );
 		return ($result);
 	}
-	public function dotProduct(Vector $rhs) :float{  // le produit scalaire
+	public function dotProduct(Vector $rhs)// :float
+	{  // le produit scalaire
 		$result = $this->_x * $rhs->_x + $this->_y * $rhs->_y + $this->_z * $rhs->_z;
 		return ($result);
 	}
-	public function cos(vector $rhs) :float{ // le cosinus de l'angle entre deux vecteur
+	public function cos(vector $rhs)// float
+	{ // le cosinus de l'angle entre deux vecteur
 		$haut = $this->dotProduct($rhs);
 		$bas = $this->magnitude() * $rhs->magnitude();
 		if ($bas != 0)
@@ -126,7 +134,8 @@ class Vector {
 			$result = 0;
 		return ($result);
 	}
-	public function crossProduct(Vector $rhs) :Vector{ // le prolduit en croix de deux vecteurs
+	public function crossProduct(Vector $rhs)// :Vector
+	{ // le prolduit en croix de deux vecteurs
 		$vertex = New Vertex(array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1));
 		$vertex->setX($this->_y   *   $rhs->_z   -   $this->_z   *  $rhs->_y    );
 		$vertex->setY($this->_z   *   $rhs->_x   -   $this->_x   *  $rhs->_z    );
