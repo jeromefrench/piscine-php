@@ -161,7 +161,7 @@ class Matrix {
 		$fov = deg2rad($fov);
 		$fov_rad = 1.0 / tan($fov / 2.0);
 		$this->_matrix[3][2] = 2 * $near * $far / ($near - $far);
-		$this->_matrix[2][2] = (-$near - $far) / ($near - $far);
+		$this->_matrix[2][2] = -(-$near - $far) / ($near - $far);
 		$this->_matrix[0][0] = $fov_rad / $ratio;   //comprend pas pk / par le ratio
 		$this->_matrix[1][1] = $fov_rad;    //OK
 		$this->_matrix[2][3] = -1.0;  //OK
@@ -258,6 +258,38 @@ class Matrix {
 
 		$v = new Vertex(   array('x' => $x, 'y' => $y, 'z' => $z, 'w' => $w)        );
 		return ($v);
+	}
+	public static function symetrie_diagonal(Matrix $mat)  //a changer en private?
+	{
+		$tmp = $mat->getMat(1, 0);
+		$mat->setMat(1, 0, $mat->getMat(0, 1));
+		$mat->setMat(0, 1, $tmp);
+
+
+		$tmp = $mat->getMat(2, 0);
+		$mat->setMat(2, 0, $mat->getMat(0, 2));
+		$mat->setMat(0, 2, $tmp);
+
+
+		$tmp = $mat->getMat(2, 1);
+		$mat->setMat(2, 1, $mat->getMat(1, 2));
+		$mat->setMat(1, 2, $tmp);
+
+
+		$tmp = $mat->getMat(3, 1);
+		$mat->setMat(3, 1, $mat->getMat(1, 3));
+		$mat->setMat(1, 3, $tmp);
+
+
+		$tmp = $mat->getMat(3, 2);
+		$mat->setMat(3, 2, $mat->getMat(2, 3));
+		$mat->setMat(2, 3, $tmp);
+
+
+		$tmp = $mat->getMat(3, 0);
+		$mat->setMat(3, 0, $mat->getMat(0, 3));
+		$mat->setMat(0, 3, $tmp);
+		return ($mat);
 	}
 }
 

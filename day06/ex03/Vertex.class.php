@@ -92,5 +92,4 @@ sprintf(", %s", $this->_color).
 	function setW($w) {$this->_w = $w;}
 	function setColor($color) {$this->_color = $color;}
 }
-
 ?>

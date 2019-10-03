@@ -1,0 +1,641 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	ex01/main_01.php	/^$A = new Vertex( array( 'x' => 3.0, 'y' => 3.0, 'z' => 3.0 ) );$/;"	v
+A	main_01.php	/^$A = new Vertex( array( 'x' => 3.0, 'y' => 3.0, 'z' => 3.0 ) );$/;"	v
+Camera	ex04/Camera.class.php	/^class Camera$/;"	c
+I	ex03/main_03.php	/^$I = new Matrix( array( 'preset' => Matrix::IDENTITY ) );$/;"	v
+I	main_03.php	/^$I = new Matrix( array( 'preset' => Matrix::IDENTITY ) );$/;"	v
+M	ex03/main_03.php	/^$M = $T->mult( $RX )->mult( $RY )->mult( $S );$/;"	v
+M	main_03.php	/^$M = $T->mult( $RX )->mult( $RY )->mult( $S );$/;"	v
+M	main_05.php	/^$M = $T->mult( $RX )->mult( $RY )->mult( $S );$/;"	v
+Matrix	ex03/Matrix.class.php	/^class Matrix {$/;"	c
+Matrix	ex04/Matrix.class.php	/^class Matrix {$/;"	c
+Ox	main_05.php	/^	$Ox = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'color' => $green ) );$/;"	v
+Oy	main_05.php	/^	$Oy = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'color' => $red   ) );$/;"	v
+Oz	main_05.php	/^	$Oz = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'color' => $blue  ) );$/;"	v
+P	ex03/main_03.php	/^$P = new Matrix( array( 'preset' => Matrix::PROJECTION,$/;"	v
+P	main_03.php	/^$P = new Matrix( array( 'preset' => Matrix::PROJECTION,$/;"	v
+R	ex04/main_04.php	/^$R    = new Matrix( array( 'preset' => Matrix::RY, 'angle' => M_PI ) );$/;"	v
+R	main_04.php	/^$R    = new Matrix( array( 'preset' => Matrix::RY, 'angle' => M_PI ) );$/;"	v
+RX	ex03/main_03.php	/^$RX = new Matrix( array( 'preset' => Matrix::RX, 'angle' => M_PI_4 ) );$/;"	v
+RX	main_03.php	/^$RX = new Matrix( array( 'preset' => Matrix::RX, 'angle' => M_PI_4 ) );$/;"	v
+RX	main_05.php	/^$RX = new Matrix( array( 'preset' => Matrix::RX, 'angle' => M_PI_4 ) );$/;"	v
+RY	ex03/main_03.php	/^$RY = new Matrix( array( 'preset' => Matrix::RY, 'angle' => M_PI_2 ) );$/;"	v
+RY	main_03.php	/^$RY = new Matrix( array( 'preset' => Matrix::RY, 'angle' => M_PI_2 ) );$/;"	v
+RY	main_05.php	/^$RY = new Matrix( array( 'preset' => Matrix::RY, 'angle' => M_PI_4 ) );$/;"	v
+RZ	ex03/main_03.php	/^$RZ = new Matrix( array( 'preset' => Matrix::RZ, 'angle' => 2 * M_PI ) );$/;"	v
+RZ	main_03.php	/^$RZ = new Matrix( array( 'preset' => Matrix::RZ, 'angle' => 2 * M_PI ) );$/;"	v
+S	ex03/main_03.php	/^$S  = new Matrix( array( 'preset' => Matrix::SCALE, 'scale' => 10.0 ) );$/;"	v
+S	main_03.php	/^$S  = new Matrix( array( 'preset' => Matrix::SCALE, 'scale' => 10.0 ) );$/;"	v
+S	main_05.php	/^$S  = new Matrix( array( 'preset' => Matrix::SCALE, 'scale' => 10.0 ) );$/;"	v
+T	ex03/main_03.php	/^$T  = new Matrix( array( 'preset' => Matrix::TRANSLATION, 'vtc' => $vtc ) );$/;"	v
+T	ex04/Camera.class.php	/^		$T = new Matrix(array('preset' => Matrix::TRANSLATION, 'vtc'=> $v));$/;"	v
+T	main_03.php	/^$T  = new Matrix( array( 'preset' => Matrix::TRANSLATION, 'vtc' => $vtc ) );$/;"	v
+T	main_05.php	/^$T  = new Matrix( array( 'preset' => Matrix::TRANSLATION, 'vtc' => $v ) );$/;"	v
+Vector	ex02/Vector.class.php	/^class Vector {$/;"	c
+Vector	ex03/Vector.class.php	/^class Vector {$/;"	c
+Vector	ex04/Vector.class.php	/^class Vector {$/;"	c
+Vertex	ex01/Vertex.class.php	/^class Vertex {$/;"	c
+Vertex	ex01/ex01.php	/^class Vertex {$/;"	c
+Vertex	ex02/Vertex.class.php	/^class Vertex {$/;"	c
+Vertex	ex03/Vertex.class.php	/^class Vertex {$/;"	c
+Vertex	ex04/Vertex.class.php	/^class Vertex {$/;"	c
+X	main_05.php	/^	$X  = new Vertex( array( 'x' => 1.0, 'y' => 0.0, 'z' => 0.0, 'color' => $green ) );$/;"	v
+Y	main_05.php	/^	$Y  = new Vertex( array( 'x' => 0.0, 'y' => 1.0, 'z' => 0.0, 'color' => $red   ) );$/;"	v
+Z	main_05.php	/^	$Z  = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 1.0, 'color' => $blue  ) );$/;"	v
+__construct	ex00/Color.class.php	/^function __construct(array $kwargs) {$/;"	f
+__construct	ex01/Color.class.php	/^function __construct(array $kwargs) {$/;"	f
+__construct	ex01/Vertex.class.php	/^	function __construct($kwargs) {$/;"	f
+__construct	ex01/ex01.php	/^	function __construct($kwargs) {$/;"	f
+__construct	ex02/Color.class.php	/^function __construct(array $kwargs) {$/;"	f
+__construct	ex02/Vector.class.php	/^	function __construct(array $kwarg){$/;"	f
+__construct	ex02/Vertex.class.php	/^	function __construct($kwargs) {$/;"	f
+__construct	ex03/Color.class.php	/^function __construct(array $kwargs) {$/;"	f
+__construct	ex03/Matrix.class.php	/^	public function __construct($kwarg)$/;"	f
+__construct	ex03/Vector.class.php	/^	function __construct(array $kwarg){$/;"	f
+__construct	ex03/Vertex.class.php	/^	function __construct($kwargs) {$/;"	f
+__construct	ex04/Camera.class.php	/^	public function __construct(array $kwargs)$/;"	f
+__construct	ex04/Color.class.php	/^function __construct(array $kwargs) {$/;"	f
+__construct	ex04/Matrix.class.php	/^	public function __construct($kwarg)$/;"	f
+__construct	ex04/Vector.class.php	/^	function __construct(array $kwarg){$/;"	f
+__construct	ex04/Vertex.class.php	/^	function __construct($kwargs) {$/;"	f
+__destruc	ex03/Matrix.class.php	/^	public function __destruc()$/;"	f
+__destruc	ex04/Matrix.class.php	/^	public function __destruc()$/;"	f
+__destruct	ex00/Color.class.php	/^function __destruct() {$/;"	f
+__destruct	ex01/Color.class.php	/^function __destruct() {$/;"	f
+__destruct	ex01/Vertex.class.php	/^	function __destruct() {$/;"	f
+__destruct	ex01/ex01.php	/^	function __destruct() {$/;"	f
+__destruct	ex02/Color.class.php	/^function __destruct() {$/;"	f
+__destruct	ex02/Vector.class.php	/^	function __destruct(){$/;"	f
+__destruct	ex02/Vertex.class.php	/^	function __destruct() {$/;"	f
+__destruct	ex03/Color.class.php	/^function __destruct() {$/;"	f
+__destruct	ex03/Vector.class.php	/^	function __destruct(){$/;"	f
+__destruct	ex03/Vertex.class.php	/^	function __destruct() {$/;"	f
+__destruct	ex04/Camera.class.php	/^	public function __destruct()$/;"	f
+__destruct	ex04/Color.class.php	/^function __destruct() {$/;"	f
+__destruct	ex04/Vector.class.php	/^	function __destruct(){$/;"	f
+__destruct	ex04/Vertex.class.php	/^	function __destruct() {$/;"	f
+__get	ex01/ex01.php	/^	function __get($att) {$/;"	f
+__set	ex01/ex01.php	/^	function __set($att, $value) {$/;"	f
+__toString	ex00/Color.class.php	/^function __toString() {$/;"	f
+__toString	ex01/Color.class.php	/^function __toString() {$/;"	f
+__toString	ex01/Vertex.class.php	/^	function __toString() {$/;"	f
+__toString	ex01/ex01.php	/^	function __toString() {$/;"	f
+__toString	ex02/Color.class.php	/^function __toString() {$/;"	f
+__toString	ex02/Vector.class.php	/^	public function __toString(){$/;"	f
+__toString	ex02/Vertex.class.php	/^	function __toString() {$/;"	f
+__toString	ex03/Color.class.php	/^function __toString() {$/;"	f
+__toString	ex03/Matrix.class.php	/^	public function __toString()$/;"	f
+__toString	ex03/Vector.class.php	/^	public function __toString(){$/;"	f
+__toString	ex03/Vertex.class.php	/^	function __toString() {$/;"	f
+__toString	ex04/Camera.class.php	/^	public function __toString()$/;"	f
+__toString	ex04/Color.class.php	/^function __toString() {$/;"	f
+__toString	ex04/Matrix.class.php	/^	public function __toString()$/;"	f
+__toString	ex04/Vector.class.php	/^	public function __toString(){$/;"	f
+__toString	ex04/Vertex.class.php	/^	function __toString() {$/;"	f
+_angle	ex03/Matrix.class.php	/^				$this->_angle = $kwarg['angle'];$/;"	v
+_angle	ex03/Matrix.class.php	/^	private	$_angle;$/;"	v
+_angle	ex04/Matrix.class.php	/^				$this->_angle = $kwarg['angle'];$/;"	v
+_angle	ex04/Matrix.class.php	/^	private	$_angle;$/;"	v
+_color	ex01/Vertex.class.php	/^			$this->_color = $kwargs['color'];$/;"	v
+_color	ex01/Vertex.class.php	/^			$this->_color = new Color(array('rgb'=> 0xffffff));$/;"	v
+_color	ex01/Vertex.class.php	/^	private $_color;$/;"	v
+_color	ex01/ex01.php	/^			$this->_color  = new Color(array('red' => 255, 'green' => 255, 'blue' => 255));$/;"	v
+_color	ex01/ex01.php	/^			$this->_color = $kwargs['color'];$/;"	v
+_color	ex01/ex01.php	/^	private $_color;$/;"	v
+_color	ex02/Vertex.class.php	/^			$this->_color = $kwargs['color'];$/;"	v
+_color	ex02/Vertex.class.php	/^			$this->_color = new Color(array('rgb'=> 0xffffff));$/;"	v
+_color	ex02/Vertex.class.php	/^	private $_color;$/;"	v
+_color	ex03/Vertex.class.php	/^			$this->_color = $kwargs['color'];$/;"	v
+_color	ex03/Vertex.class.php	/^			$this->_color = new Color(array('rgb'=> 0xffffff));$/;"	v
+_color	ex03/Vertex.class.php	/^	private $_color;$/;"	v
+_color	ex04/Vertex.class.php	/^			$this->_color = $kwargs['color'];$/;"	v
+_color	ex04/Vertex.class.php	/^			$this->_color = new Color(array('rgb'=> 0xffffff));$/;"	v
+_color	ex04/Vertex.class.php	/^	private $_color;$/;"	v
+_dest	ex02/Vector.class.php	/^			$this->_dest = new Vertex(array ('x' => $kwarg['dest']->getX(),$/;"	v
+_dest	ex02/Vector.class.php	/^	private $_dest;$/;"	v
+_dest	ex03/Vector.class.php	/^			$this->_dest = new Vertex(array ('x' => $kwarg['dest']->getX(),$/;"	v
+_dest	ex03/Vector.class.php	/^	private $_dest;$/;"	v
+_dest	ex04/Vector.class.php	/^			$this->_dest = new Vertex(array ('x' => $kwarg['dest']->getX(),$/;"	v
+_dest	ex04/Vector.class.php	/^	private $_dest;$/;"	v
+_far	ex03/Matrix.class.php	/^			$this->_far = $kwarg['far'];$/;"	v
+_far	ex03/Matrix.class.php	/^	private	$_far;$/;"	v
+_far	ex04/Camera.class.php	/^		$this->_far = $kwargs['far'];$/;"	v
+_far	ex04/Camera.class.php	/^	private $_far;$/;"	v
+_far	ex04/Matrix.class.php	/^			$this->_far = $kwarg['far'];$/;"	v
+_far	ex04/Matrix.class.php	/^	private	$_far;$/;"	v
+_fov	ex03/Matrix.class.php	/^				$this->_fov = $kwarg['fov'];$/;"	v
+_fov	ex03/Matrix.class.php	/^	private	$_fov;$/;"	v
+_fov	ex04/Camera.class.php	/^		$this->_fov = $kwargs['fov'];$/;"	v
+_fov	ex04/Camera.class.php	/^	private $_fov;$/;"	v
+_fov	ex04/Matrix.class.php	/^				$this->_fov = $kwarg['fov'];$/;"	v
+_fov	ex04/Matrix.class.php	/^	private	$_fov;$/;"	v
+_height	ex04/Camera.class.php	/^		$this->_height = $kwargs['height'];$/;"	v
+_height	ex04/Camera.class.php	/^	private $_height;$/;"	v
+_matrix	ex03/Matrix.class.php	/^		$_matrix = array(array());$/;"	v
+_matrix	ex03/Matrix.class.php	/^		$this->_matrix = $this->init_matrix();$/;"	v
+_matrix	ex03/Matrix.class.php	/^	private	$_matrix;$/;"	v
+_matrix	ex04/Matrix.class.php	/^		$_matrix = array(array());$/;"	v
+_matrix	ex04/Matrix.class.php	/^		$this->_matrix = $this->init_matrix();$/;"	v
+_matrix	ex04/Matrix.class.php	/^	private	$_matrix;$/;"	v
+_near	ex03/Matrix.class.php	/^			$this->_near = $kwarg['near'];$/;"	v
+_near	ex03/Matrix.class.php	/^	private	$_near;$/;"	v
+_near	ex04/Camera.class.php	/^		$this->_near = $kwargs['near'];$/;"	v
+_near	ex04/Matrix.class.php	/^			$this->_near = $kwarg['near'];$/;"	v
+_near	ex04/Matrix.class.php	/^	private	$_near;$/;"	v
+_orientation	ex04/Camera.class.php	/^		$this->_orientation = $kwargs['orientation']; \/\/ matrix de rotation pour orienter la camera$/;"	v
+_orientation	ex04/Camera.class.php	/^	private $_orientation;$/;"	v
+_orig	ex02/Vector.class.php	/^			$this->_orig = new Vertex(array ('x' => $kwarg['orig']->getX(),$/;"	v
+_orig	ex02/Vector.class.php	/^			$this->_orig = new Vertex(array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1));$/;"	v
+_orig	ex02/Vector.class.php	/^	private $_orig;$/;"	v
+_orig	ex03/Vector.class.php	/^			$this->_orig = new Vertex(array ('x' => $kwarg['orig']->getX(),$/;"	v
+_orig	ex03/Vector.class.php	/^			$this->_orig = new Vertex(array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1));$/;"	v
+_orig	ex03/Vector.class.php	/^	private $_orig;$/;"	v
+_orig	ex04/Vector.class.php	/^			$this->_orig = new Vertex(array ('x' => $kwarg['orig']->getX(),$/;"	v
+_orig	ex04/Vector.class.php	/^			$this->_orig = new Vertex(array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1));$/;"	v
+_orig	ex04/Vector.class.php	/^	private $_orig;$/;"	v
+_origin	ex04/Camera.class.php	/^		$this->_origin = $kwargs['origin'];  \/\/ vertex de positionement de la camera$/;"	v
+_origin	ex04/Camera.class.php	/^		private $_origin;$/;"	v
+_origin	ex04/Camera.class.php	/^	private $_origin;$/;"	v
+_preset	ex03/Matrix.class.php	/^			$this->_preset = $kwarg['preset'];$/;"	v
+_preset	ex03/Matrix.class.php	/^			$this->_preset == self::RY ||$/;"	v
+_preset	ex03/Matrix.class.php	/^			$this->_preset == self::RZ)$/;"	v
+_preset	ex03/Matrix.class.php	/^	private	$_preset;$/;"	v
+_preset	ex04/Matrix.class.php	/^			$this->_preset = $kwarg['preset'];$/;"	v
+_preset	ex04/Matrix.class.php	/^			$this->_preset == self::RY ||$/;"	v
+_preset	ex04/Matrix.class.php	/^			$this->_preset == self::RZ)$/;"	v
+_preset	ex04/Matrix.class.php	/^	private	$_preset;$/;"	v
+_ratio	ex03/Matrix.class.php	/^			$this->_ratio = $kwarg['ratio'];$/;"	v
+_ratio	ex03/Matrix.class.php	/^	private	$_ratio;$/;"	v
+_ratio	ex04/Matrix.class.php	/^			$this->_ratio = $kwarg['ratio'];$/;"	v
+_ratio	ex04/Matrix.class.php	/^	private	$_ratio;$/;"	v
+_scale	ex03/Matrix.class.php	/^				$this->_scale = $kwarg['scale'];$/;"	v
+_scale	ex03/Matrix.class.php	/^	private	$_scale;$/;"	v
+_scale	ex04/Matrix.class.php	/^				$this->_scale = $kwarg['scale'];$/;"	v
+_scale	ex04/Matrix.class.php	/^	private	$_scale;$/;"	v
+_vtc	ex03/Matrix.class.php	/^				$this->_vtc = $kwarg['vtc'];$/;"	v
+_vtc	ex03/Matrix.class.php	/^	private	$_vtc;$/;"	v
+_vtc	ex04/Matrix.class.php	/^				$this->_vtc = $kwarg['vtc'];$/;"	v
+_vtc	ex04/Matrix.class.php	/^	private	$_vtc;$/;"	v
+_w	ex01/Vertex.class.php	/^			$this->_w = $kwargs['w'];$/;"	v
+_w	ex01/Vertex.class.php	/^	private $_w = 1.0;$/;"	v
+_w	ex01/ex01.php	/^			$this->_w = $kwargs['w'];$/;"	v
+_w	ex01/ex01.php	/^	private $_w = 1.0;$/;"	v
+_w	ex02/Vector.class.php	/^		$this->_w = $this->_dest->getW() - $this->_orig->getW();$/;"	v
+_w	ex02/Vector.class.php	/^	private $_w;$/;"	v
+_w	ex02/Vertex.class.php	/^			$this->_w = $kwargs['w'];$/;"	v
+_w	ex02/Vertex.class.php	/^	private $_w = 1.0;$/;"	v
+_w	ex03/Vector.class.php	/^		$this->_w = $this->_dest->getW() - $this->_orig->getW();$/;"	v
+_w	ex03/Vector.class.php	/^	private $_w;$/;"	v
+_w	ex03/Vertex.class.php	/^			$this->_w = $kwargs['w'];$/;"	v
+_w	ex03/Vertex.class.php	/^	private $_w = 1.0;$/;"	v
+_w	ex04/Vector.class.php	/^		$this->_w = $this->_dest->getW() - $this->_orig->getW();$/;"	v
+_w	ex04/Vector.class.php	/^	private $_w;$/;"	v
+_w	ex04/Vertex.class.php	/^			$this->_w = $kwargs['w'];$/;"	v
+_w	ex04/Vertex.class.php	/^	private $_w = 1.0;$/;"	v
+_width	ex04/Camera.class.php	/^		$this->_width = $kwargs['width'];$/;"	v
+_width	ex04/Camera.class.php	/^	private $_width;$/;"	v
+_x	ex01/Vertex.class.php	/^			$this->_x = $kwargs['x'];$/;"	v
+_x	ex01/Vertex.class.php	/^	private $_x;$/;"	v
+_x	ex01/ex01.php	/^			$this->_x = $kwargs['x'];$/;"	v
+_x	ex01/ex01.php	/^	private $_x = 50;$/;"	v
+_x	ex02/Vector.class.php	/^		$this->_x = $this->_dest->getX() - $this->_orig->getX();$/;"	v
+_x	ex02/Vector.class.php	/^	private $_x;$/;"	v
+_x	ex02/Vertex.class.php	/^			$this->_x = $kwargs['x'];$/;"	v
+_x	ex02/Vertex.class.php	/^	private $_x;$/;"	v
+_x	ex03/Vector.class.php	/^		$this->_x = $this->_dest->getX() - $this->_orig->getX();$/;"	v
+_x	ex03/Vector.class.php	/^	private $_x;$/;"	v
+_x	ex03/Vertex.class.php	/^			$this->_x = $kwargs['x'];$/;"	v
+_x	ex03/Vertex.class.php	/^	private $_x;$/;"	v
+_x	ex04/Vector.class.php	/^		$this->_x = $this->_dest->getX() - $this->_orig->getX();$/;"	v
+_x	ex04/Vector.class.php	/^	private $_x;$/;"	v
+_x	ex04/Vertex.class.php	/^			$this->_x = $kwargs['x'];$/;"	v
+_x	ex04/Vertex.class.php	/^	private $_x;$/;"	v
+_y	ex01/Vertex.class.php	/^			$this->_y = $kwargs['y'];$/;"	v
+_y	ex01/Vertex.class.php	/^	private $_y;$/;"	v
+_y	ex01/ex01.php	/^			$this->_y = $kwargs['y'];$/;"	v
+_y	ex01/ex01.php	/^	private $_y;$/;"	v
+_y	ex02/Vector.class.php	/^		$this->_y = $this->_dest->getY() - $this->_orig->getY();$/;"	v
+_y	ex02/Vector.class.php	/^	private $_y;$/;"	v
+_y	ex02/Vertex.class.php	/^			$this->_y = $kwargs['y'];$/;"	v
+_y	ex02/Vertex.class.php	/^	private $_y;$/;"	v
+_y	ex03/Vector.class.php	/^		$this->_y = $this->_dest->getY() - $this->_orig->getY();$/;"	v
+_y	ex03/Vector.class.php	/^	private $_y;$/;"	v
+_y	ex03/Vertex.class.php	/^			$this->_y = $kwargs['y'];$/;"	v
+_y	ex03/Vertex.class.php	/^	private $_y;$/;"	v
+_y	ex04/Vector.class.php	/^		$this->_y = $this->_dest->getY() - $this->_orig->getY();$/;"	v
+_y	ex04/Vector.class.php	/^	private $_y;$/;"	v
+_y	ex04/Vertex.class.php	/^			$this->_y = $kwargs['y'];$/;"	v
+_y	ex04/Vertex.class.php	/^	private $_y;$/;"	v
+_z	ex01/Vertex.class.php	/^			$this->_z = $kwargs['z'];$/;"	v
+_z	ex01/Vertex.class.php	/^	private $_z;$/;"	v
+_z	ex01/ex01.php	/^			$this->_z = $kwargs['z'];$/;"	v
+_z	ex01/ex01.php	/^	private $_z;$/;"	v
+_z	ex02/Vector.class.php	/^		$this->_z = $this->_dest->getZ() - $this->_orig->getZ();$/;"	v
+_z	ex02/Vector.class.php	/^	private $_z;$/;"	v
+_z	ex02/Vertex.class.php	/^			$this->_z = $kwargs['z'];$/;"	v
+_z	ex02/Vertex.class.php	/^	private $_z;$/;"	v
+_z	ex03/Vector.class.php	/^		$this->_z = $this->_dest->getZ() - $this->_orig->getZ();$/;"	v
+_z	ex03/Vector.class.php	/^	private $_z;$/;"	v
+_z	ex03/Vertex.class.php	/^			$this->_z = $kwargs['z'];$/;"	v
+_z	ex03/Vertex.class.php	/^	private $_z;$/;"	v
+_z	ex04/Vector.class.php	/^		$this->_z = $this->_dest->getZ() - $this->_orig->getZ();$/;"	v
+_z	ex04/Vector.class.php	/^	private $_z;$/;"	v
+_z	ex04/Vertex.class.php	/^			$this->_z = $kwargs['z'];$/;"	v
+_z	ex04/Vertex.class.php	/^	private $_z;$/;"	v
+a	main_05.php	/^	$a = new Vertex( array( 'x' => $x-$hl, 'y' => $y+$hl, 'z' => $z+$hl, 'color' => $red ) );$/;"	v
+add	ex00/Color.class.php	/^function add($to_add) {$/;"	f
+add	ex01/Color.class.php	/^function add($to_add) {$/;"	f
+add	ex02/Color.class.php	/^function add($to_add) {$/;"	f
+add	ex02/Vector.class.php	/^	public function add(Vector $rhs) :Vector{ \/\/somme de deux vecteur$/;"	f
+add	ex03/Color.class.php	/^function add($to_add) {$/;"	f
+add	ex03/Vector.class.php	/^	public function add(Vector $rhs)\/\/ :Vector$/;"	f
+add	ex04/Color.class.php	/^function add($to_add) {$/;"	f
+add	ex04/Vector.class.php	/^	public function add(Vector $rhs)\/\/ :Vector$/;"	f
+angle	ex03/Matrix.class.php	/^		\/* $angle = deg2rad($angle); *\/$/;"	v
+angle	ex04/Matrix.class.php	/^		\/* $angle = deg2rad($angle); *\/$/;"	v
+b	main_05.php	/^	$b = new Vertex( array( 'x' => $x+$hl, 'y' => $y+$hl, 'z' => $z+$hl, 'color' => $green ) );$/;"	v
+bas	ex02/Vector.class.php	/^		$bas = $this->magnitude() * $rhs->magnitude();$/;"	v
+bas	ex03/Vector.class.php	/^		$bas = $this->magnitude() * $rhs->magnitude();$/;"	v
+bas	ex04/Vector.class.php	/^		$bas = $this->magnitude() * $rhs->magnitude();$/;"	v
+black	ex00/main_00.php	/^$black = $white->sub( $red )->sub( $green )->sub( $blue );$/;"	v
+black	main_00.php	/^$black = $white->sub( $red )->sub( $green )->sub( $blue );$/;"	v
+blue	ex00/Color.class.php	/^		$this->blue = floor($kwargs['blue']);$/;"	v
+blue	ex00/Color.class.php	/^		$this->blue = floor(($kwargs['rgb'] &  0x0000ff) >> 0);$/;"	v
+blue	ex00/Color.class.php	/^public $blue = 0;$/;"	v
+blue	ex00/main_00.php	/^$blue    = new Color( array( 'red' => 0   , 'green' => 0   , 'blue' => 0xff ) );$/;"	v
+blue	ex01/Color.class.php	/^		$this->blue = floor($kwargs['blue']);$/;"	v
+blue	ex01/Color.class.php	/^		$this->blue = floor(($kwargs['rgb'] &  0x0000ff) >> 0);$/;"	v
+blue	ex01/Color.class.php	/^public $blue = 0;$/;"	v
+blue	ex01/main_01.php	/^$blue  = new Color( array( 'red' =>   0, 'green' =>   0, 'blue' => 255 ) );$/;"	v
+blue	ex02/Color.class.php	/^		$this->blue = floor($kwargs['blue']);$/;"	v
+blue	ex02/Color.class.php	/^		$this->blue = floor(($kwargs['rgb'] &  0x0000ff) >> 0);$/;"	v
+blue	ex02/Color.class.php	/^public $blue = 0;$/;"	v
+blue	ex03/Color.class.php	/^		$this->blue = floor($kwargs['blue']);$/;"	v
+blue	ex03/Color.class.php	/^		$this->blue = floor(($kwargs['rgb'] &  0x0000ff) >> 0);$/;"	v
+blue	ex03/Color.class.php	/^public $blue = 0;$/;"	v
+blue	ex04/Color.class.php	/^		$this->blue = floor($kwargs['blue']);$/;"	v
+blue	ex04/Color.class.php	/^		$this->blue = floor(($kwargs['rgb'] &  0x0000ff) >> 0);$/;"	v
+blue	ex04/Color.class.php	/^public $blue = 0;$/;"	v
+blue	main_00.php	/^$blue    = new Color( array( 'red' => 0   , 'green' => 0   , 'blue' => 0xff ) );$/;"	v
+blue	main_01.php	/^$blue  = new Color( array( 'red' =>   0, 'green' =>   0, 'blue' => 255 ) );$/;"	v
+blue	main_05.php	/^	$blue    = new Color( array( 'red' => 0   , 'green' => 0   , 'blue' => 0xff ) );$/;"	v
+blue	main_05.php	/^	$blue  = new Color( array( 'red' => 0   , 'green' => 0   , 'blue' => 0xff ) );$/;"	v
+c	main_05.php	/^	$c = new Vertex( array( 'x' => $x+$hl, 'y' => $y+$hl, 'z' => $z-$hl, 'color' => $blue ) );$/;"	v
+cam	ex04/main_04.php	/^$cam  = new Camera( array( 'origin' => $vtxO,$/;"	v
+cam	main_04.php	/^$cam  = new Camera( array( 'origin' => $vtxO,$/;"	v
+cam	main_05.php	/^$cam = new Camera( array( 'origin' => new Vertex( array( 'x' => 15.0, 'y' => 15.0, 'z' => 80.0 ) ),$/;"	v
+cos	ex02/Vector.class.php	/^	public function cos(vector $rhs) :float{ \/\/ le cosinus de l'angle entre deux vecteur$/;"	f
+cos	ex03/Vector.class.php	/^	public function cos(vector $rhs)\/\/ float$/;"	f
+cos	ex04/Vector.class.php	/^	public function cos(vector $rhs)\/\/ float$/;"	f
+crossProduct	ex02/Vector.class.php	/^	public function crossProduct(Vector $rhs) :Vector{ \/\/ le prolduit en croix de deux vecteurs$/;"	f
+crossProduct	ex03/Vector.class.php	/^	public function crossProduct(Vector $rhs)\/\/ :Vector$/;"	f
+crossProduct	ex04/Vector.class.php	/^	public function crossProduct(Vector $rhs)\/\/ :Vector$/;"	f
+cube	main_05.php	/^$cube = $M->transformMesh( $cube );$/;"	v
+cube	main_05.php	/^$cube = $cam->watchMesh( $cube );$/;"	v
+cube	main_05.php	/^$cube = makeColoredCube( 0.0, 0.0, 0.0, 1.0 );$/;"	v
+cyan	ex00/main_00.php	/^$cyan    = $green->add( $blue );$/;"	v
+cyan	main_00.php	/^$cyan    = $green->add( $blue );$/;"	v
+cyan	main_05.php	/^	$cyan    = new Color( array( 'red' => 0   , 'green' => 0xff, 'blue' => 0xff ) );$/;"	v
+d	main_05.php	/^	$d = new Vertex( array( 'x' => $x-$hl, 'y' => $y+$hl, 'z' => $z-$hl, 'color' => $yellow ) );$/;"	v
+darkgrey	ex00/main_00.php	/^$darkgrey = new Color( array( 'rgb' => (10 << 16) + (10 << 8) + 10 ) );$/;"	v
+darkgrey	main_00.php	/^$darkgrey = new Color( array( 'rgb' => (10 << 16) + (10 << 8) + 10 ) );$/;"	v
+dest1	ex02/main_02.php	/^$dest1 = new Vertex( array( 'x' => -12.34, 'y' => 23.45, 'z' => -34.56 ) );$/;"	v
+dest2	ex02/main_02.php	/^$dest2 = new Vertex( array( 'x' => -12.34, 'y' => 23.45, 'z' => -34.56 ) );$/;"	v
+doc	ex00/Color.class.php	/^public static function doc() {$/;"	f
+doc	ex01/Color.class.php	/^public static function doc() {$/;"	f
+doc	ex01/Vertex.class.php	/^	public static function doc() {$/;"	f
+doc	ex02/Color.class.php	/^public static function doc() {$/;"	f
+doc	ex02/Vector.class.php	/^	public function doc(){$/;"	f
+doc	ex02/Vertex.class.php	/^	public static function doc() {$/;"	f
+doc	ex03/Color.class.php	/^public static function doc() {$/;"	f
+doc	ex03/Matrix.class.php	/^	public static function doc()$/;"	f
+doc	ex03/Vector.class.php	/^	public function doc(){$/;"	f
+doc	ex03/Vertex.class.php	/^	public static function doc() {$/;"	f
+doc	ex04/Camera.class.php	/^	public static function doc()$/;"	f
+doc	ex04/Color.class.php	/^public static function doc() {$/;"	f
+doc	ex04/Matrix.class.php	/^	public static function doc()$/;"	f
+doc	ex04/Vector.class.php	/^	public function doc(){$/;"	f
+doc	ex04/Vertex.class.php	/^	public static function doc() {$/;"	f
+dotProduct	ex02/Vector.class.php	/^	public function dotProduct(Vector $rhs) :float{  \/\/ le produit scalaire$/;"	f
+dotProduct	ex03/Vector.class.php	/^	public function dotProduct(Vector $rhs)\/\/ :float$/;"	f
+dotProduct	ex04/Vector.class.php	/^	public function dotProduct(Vector $rhs)\/\/ :float$/;"	f
+e	main_05.php	/^	$e = new Vertex( array( 'x' => $x-$hl, 'y' => $y-$hl, 'z' => $z+$hl, 'color' => $magenta ) );$/;"	v
+equA	ex01/main_01.php	/^$equA = new Vertex( array( 'x' => 9.0, 'y' => 9.0, 'z' => 9.0, 'w' => 3.0 ) );$/;"	v
+equA	main_01.php	/^$equA = new Vertex( array( 'x' => 9.0, 'y' => 9.0, 'z' => 9.0, 'w' => 3.0 ) );$/;"	v
+f	main_05.php	/^	$f = new Vertex( array( 'x' => $x+$hl, 'y' => $y-$hl, 'z' => $z+$hl, 'color' => $cyan ) );$/;"	v
+fov	ex03/Matrix.class.php	/^		$fov = deg2rad($fov);$/;"	v
+fov	ex04/Matrix.class.php	/^		$fov = deg2rad($fov);$/;"	v
+fov_rad	ex03/Matrix.class.php	/^		$fov_rad = 1.0 \/ tan($fov \/ 2.0);$/;"	v
+fov_rad	ex04/Matrix.class.php	/^		$fov_rad = 1.0 \/ tan($fov \/ 2.0);$/;"	v
+ft_make_identity	ex03/Matrix.class.php	/^	private function ft_make_identity()$/;"	f
+ft_make_identity	ex04/Matrix.class.php	/^	private function ft_make_identity()$/;"	f
+ft_make_projection	ex03/Matrix.class.php	/^	private function ft_make_projection($far, $near, $fov, $ratio)$/;"	f
+ft_make_projection	ex04/Matrix.class.php	/^	private function ft_make_projection($far, $near, $fov, $ratio)$/;"	f
+ft_make_rx	ex03/Matrix.class.php	/^	private function ft_make_rx($angle)$/;"	f
+ft_make_rx	ex04/Matrix.class.php	/^	private function ft_make_rx($angle)$/;"	f
+ft_make_ry	ex03/Matrix.class.php	/^	private function ft_make_ry($angle)$/;"	f
+ft_make_ry	ex04/Matrix.class.php	/^	private function ft_make_ry($angle)$/;"	f
+ft_make_rz	ex03/Matrix.class.php	/^	private function ft_make_rz($angle)$/;"	f
+ft_make_rz	ex04/Matrix.class.php	/^	private function ft_make_rz($angle)$/;"	f
+ft_make_scale	ex03/Matrix.class.php	/^	private function ft_make_scale($scale)$/;"	f
+ft_make_scale	ex04/Matrix.class.php	/^	private function ft_make_scale($scale)$/;"	f
+ft_make_translation	ex03/Matrix.class.php	/^	private function ft_make_translation(Vector $vtc)$/;"	f
+ft_make_translation	ex04/Matrix.class.php	/^	private function ft_make_translation(Vector $vtc)$/;"	f
+g	main_05.php	/^	$g = new Vertex( array( 'x' => $x+$hl, 'y' => $y-$hl, 'z' => $z-$hl, 'color' => $grey ) );$/;"	v
+getColor	ex01/Vertex.class.php	/^	function getColor() {return $this->_color;}$/;"	f
+getColor	ex02/Vertex.class.php	/^	function getColor() {return $this->_color;}$/;"	f
+getColor	ex03/Vertex.class.php	/^	function getColor() {return $this->_color;}$/;"	f
+getColor	ex04/Vertex.class.php	/^	function getColor() {return $this->_color;}$/;"	f
+getMat	ex03/Matrix.class.php	/^	public function getMat($x, $y)$/;"	f
+getMat	ex04/Matrix.class.php	/^	public function getMat($x, $y)$/;"	f
+getW	ex01/Vertex.class.php	/^	function getW() {return $this->_w;}$/;"	f
+getW	ex02/Vector.class.php	/^	public function getW(){$/;"	f
+getW	ex02/Vertex.class.php	/^	function getW() {return $this->_w;}$/;"	f
+getW	ex03/Vector.class.php	/^	public function getW(){$/;"	f
+getW	ex03/Vertex.class.php	/^	function getW() {return $this->_w;}$/;"	f
+getW	ex04/Vector.class.php	/^	public function getW(){$/;"	f
+getW	ex04/Vertex.class.php	/^	function getW() {return $this->_w;}$/;"	f
+getX	ex01/Vertex.class.php	/^	function getX() {return $this->_x;}$/;"	f
+getX	ex01/ex01.php	/^	function getX() {$/;"	f
+getX	ex02/Vector.class.php	/^	public function getX(){$/;"	f
+getX	ex02/Vertex.class.php	/^	function getX() {return $this->_x;}$/;"	f
+getX	ex03/Vector.class.php	/^	public function getX(){$/;"	f
+getX	ex03/Vertex.class.php	/^	function getX() {return $this->_x;}$/;"	f
+getX	ex04/Vector.class.php	/^	public function getX(){$/;"	f
+getX	ex04/Vertex.class.php	/^	function getX() {return $this->_x;}$/;"	f
+getY	ex01/Vertex.class.php	/^	function getY() {return $this->_y;}$/;"	f
+getY	ex02/Vector.class.php	/^	public function getY(){$/;"	f
+getY	ex02/Vertex.class.php	/^	function getY() {return $this->_y;}$/;"	f
+getY	ex03/Vector.class.php	/^	public function getY(){$/;"	f
+getY	ex03/Vertex.class.php	/^	function getY() {return $this->_y;}$/;"	f
+getY	ex04/Vector.class.php	/^	public function getY(){$/;"	f
+getY	ex04/Vertex.class.php	/^	function getY() {return $this->_y;}$/;"	f
+getZ	ex01/Vertex.class.php	/^	function getZ() {return $this->_z;}$/;"	f
+getZ	ex02/Vector.class.php	/^	public function getZ(){$/;"	f
+getZ	ex02/Vertex.class.php	/^	function getZ() {return $this->_z;}$/;"	f
+getZ	ex03/Vector.class.php	/^	public function getZ(){$/;"	f
+getZ	ex03/Vertex.class.php	/^	function getZ() {return $this->_z;}$/;"	f
+getZ	ex04/Vector.class.php	/^	public function getZ(){$/;"	f
+getZ	ex04/Vertex.class.php	/^	function getZ() {return $this->_z;}$/;"	f
+green	ex00/Color.class.php	/^		$this->green = floor($kwargs['green']);$/;"	v
+green	ex00/Color.class.php	/^		$this->green = floor(($kwargs['rgb'] & 0x00ff00) >> 8);$/;"	v
+green	ex00/Color.class.php	/^public $green = 0;$/;"	v
+green	ex00/main_00.php	/^$green   = new Color( array( 'rgb' => 255 << 8 ) );$/;"	v
+green	ex01/Color.class.php	/^		$this->green = floor($kwargs['green']);$/;"	v
+green	ex01/Color.class.php	/^		$this->green = floor(($kwargs['rgb'] & 0x00ff00) >> 8);$/;"	v
+green	ex01/Color.class.php	/^public $green = 0;$/;"	v
+green	ex01/main_01.php	/^$green = new Color( array( 'red' =>   0, 'green' => 255, 'blue' =>   0 ) );$/;"	v
+green	ex02/Color.class.php	/^		$this->green = floor($kwargs['green']);$/;"	v
+green	ex02/Color.class.php	/^		$this->green = floor(($kwargs['rgb'] & 0x00ff00) >> 8);$/;"	v
+green	ex02/Color.class.php	/^public $green = 0;$/;"	v
+green	ex03/Color.class.php	/^		$this->green = floor($kwargs['green']);$/;"	v
+green	ex03/Color.class.php	/^		$this->green = floor(($kwargs['rgb'] & 0x00ff00) >> 8);$/;"	v
+green	ex03/Color.class.php	/^public $green = 0;$/;"	v
+green	ex04/Color.class.php	/^		$this->green = floor($kwargs['green']);$/;"	v
+green	ex04/Color.class.php	/^		$this->green = floor(($kwargs['rgb'] & 0x00ff00) >> 8);$/;"	v
+green	ex04/Color.class.php	/^public $green = 0;$/;"	v
+green	main_00.php	/^$green   = new Color( array( 'rgb' => 255 << 8 ) );$/;"	v
+green	main_01.php	/^$green = new Color( array( 'red' =>   0, 'green' => 255, 'blue' =>   0 ) );$/;"	v
+green	main_05.php	/^	$green   = new Color( array( 'red' => 0   , 'green' => 0xff, 'blue' => 0    ) );$/;"	v
+green	main_05.php	/^	$green = new Color( array( 'red' => 0   , 'green' => 0xff, 'blue' => 0    ) );$/;"	v
+grey	main_05.php	/^	$grey    = new Color( array( 'red' => 70  , 'green' => 70  , 'blue' => 70   ) );$/;"	v
+h	main_05.php	/^	$h = new Vertex( array( 'x' => $x-$hl, 'y' => $y-$hl, 'z' => $z-$hl, 'color' => $white ) );$/;"	v
+haut	ex02/Vector.class.php	/^		$haut = $this->dotProduct($rhs);$/;"	v
+haut	ex03/Vector.class.php	/^		$haut = $this->dotProduct($rhs);$/;"	v
+haut	ex04/Vector.class.php	/^		$haut = $this->dotProduct($rhs);$/;"	v
+hl	main_05.php	/^	$hl = $l \/ 2.0;$/;"	v
+init_matrix	ex03/Matrix.class.php	/^	private function init_matrix()$/;"	f
+init_matrix	ex04/Matrix.class.php	/^	private function init_matrix()$/;"	f
+lightgrey	ex00/main_00.php	/^$lightgrey = $darkgrey->mult( 22.5 );$/;"	v
+lightgrey	main_00.php	/^$lightgrey = $darkgrey->mult( 22.5 );$/;"	v
+magenta	ex00/main_00.php	/^$magenta = $blue->add( $red );$/;"	v
+magenta	main_00.php	/^$magenta = $blue->add( $red );$/;"	v
+magenta	main_05.php	/^	$magenta = new Color( array( 'red' => 0xff, 'green' => 0   , 'blue' => 0xff ) );$/;"	v
+magnitude	ex02/Vector.class.php	/^	public function magnitude() :float{   \/\/retourne la longueur (ou norme) du vecteur$/;"	f
+magnitude	ex03/Vector.class.php	/^	public function magnitude() {   \/\/retourne la longueur (ou norme) du vecteur$/;"	f
+magnitude	ex04/Vector.class.php	/^	public function magnitude() {   \/\/retourne la longueur (ou norme) du vecteur$/;"	f
+makeColoredCube	main_05.php	/^function makeColoredCube( $x, $y, $z, $l ) {$/;"	f
+makeRepere	main_05.php	/^function makeRepere() {$/;"	f
+mat_multiply	ex03/Matrix.class.php	/^		$mat_multiply = new Matrix(array('preset' => Matrix::IDENTITY));$/;"	v
+mat_multiply	ex04/Matrix.class.php	/^		$mat_multiply = new Matrix(array('preset' => Matrix::IDENTITY));$/;"	v
+matrix_projection	ex04/Camera.class.php	/^		$matrix_projection = new Matrix( array( 'preset' => Matrix::PROJECTION,$/;"	v
+mult	ex00/Color.class.php	/^function mult($to_mul) {$/;"	f
+mult	ex01/Color.class.php	/^function mult($to_mul) {$/;"	f
+mult	ex02/Color.class.php	/^function mult($to_mul) {$/;"	f
+mult	ex03/Color.class.php	/^function mult($to_mul) {$/;"	f
+mult	ex03/Matrix.class.php	/^	public function mult(Matrix $m2)\/\/ : Matrix      matrix multiply matrix$/;"	f
+mult	ex04/Color.class.php	/^function mult($to_mul) {$/;"	f
+mult	ex04/Matrix.class.php	/^	public function mult(Matrix $m2)\/\/ : Matrix      matrix multiply matrix$/;"	f
+nVtc2	ex02/main_02.php	/^$nVtc2 = $vtc2->normalize();$/;"	v
+new_instance	ex00/Color.class.php	/^	$this->new_instance = new Color(array('red' => ($this->red + $to_add->red), 'green' => ($this->green + $to_add->green), 'blue' => ($this->blue + $to_add->blue)));$/;"	v
+new_instance	ex00/Color.class.php	/^	$this->new_instance = new Color(array('red' => ($this->red - $to_sub->red), 'green' => ($this->green - $to_sub->green), 'blue' => ($this->blue - $to_sub->blue)));$/;"	v
+new_instance	ex00/Color.class.php	/^	$this->new_instance = new Color(array('red' => (($this->red * $to_mul)), 'green' => (($this->green * $to_mul)), 'blue' => (($this->blue * $to_mul))));$/;"	v
+new_instance	ex01/Color.class.php	/^	$this->new_instance = new Color(array('red' => ($this->red + $to_add->red), 'green' => ($this->green + $to_add->green), 'blue' => ($this->blue + $to_add->blue)));$/;"	v
+new_instance	ex01/Color.class.php	/^	$this->new_instance = new Color(array('red' => ($this->red - $to_sub->red), 'green' => ($this->green - $to_sub->green), 'blue' => ($this->blue - $to_sub->blue)));$/;"	v
+new_instance	ex01/Color.class.php	/^	$this->new_instance = new Color(array('red' => (($this->red * $to_mul)), 'green' => (($this->green * $to_mul)), 'blue' => (($this->blue * $to_mul))));$/;"	v
+new_instance	ex02/Color.class.php	/^	$this->new_instance = new Color(array('red' => ($this->red + $to_add->red), 'green' => ($this->green + $to_add->green), 'blue' => ($this->blue + $to_add->blue)));$/;"	v
+new_instance	ex02/Color.class.php	/^	$this->new_instance = new Color(array('red' => ($this->red - $to_sub->red), 'green' => ($this->green - $to_sub->green), 'blue' => ($this->blue - $to_sub->blue)));$/;"	v
+new_instance	ex02/Color.class.php	/^	$this->new_instance = new Color(array('red' => (($this->red * $to_mul)), 'green' => (($this->green * $to_mul)), 'blue' => (($this->blue * $to_mul))));$/;"	v
+new_instance	ex03/Color.class.php	/^	$this->new_instance = new Color(array('red' => ($this->red + $to_add->red), 'green' => ($this->green + $to_add->green), 'blue' => ($this->blue + $to_add->blue)));$/;"	v
+new_instance	ex03/Color.class.php	/^	$this->new_instance = new Color(array('red' => ($this->red - $to_sub->red), 'green' => ($this->green - $to_sub->green), 'blue' => ($this->blue - $to_sub->blue)));$/;"	v
+new_instance	ex03/Color.class.php	/^	$this->new_instance = new Color(array('red' => (($this->red * $to_mul)), 'green' => (($this->green * $to_mul)), 'blue' => (($this->blue * $to_mul))));$/;"	v
+new_instance	ex04/Color.class.php	/^	$this->new_instance = new Color(array('red' => ($this->red + $to_add->red), 'green' => ($this->green + $to_add->green), 'blue' => ($this->blue + $to_add->blue)));$/;"	v
+new_instance	ex04/Color.class.php	/^	$this->new_instance = new Color(array('red' => ($this->red - $to_sub->red), 'green' => ($this->green - $to_sub->green), 'blue' => ($this->blue - $to_sub->blue)));$/;"	v
+new_instance	ex04/Color.class.php	/^	$this->new_instance = new Color(array('red' => (($this->red * $to_mul)), 'green' => (($this->green * $to_mul)), 'blue' => (($this->blue * $to_mul))));$/;"	v
+norm	ex02/Vector.class.php	/^		$norm = $this->magnitude();$/;"	v
+norm	ex03/Vector.class.php	/^		$norm = $this->magnitude();$/;"	v
+norm	ex04/Vector.class.php	/^		$norm = $this->magnitude();$/;"	v
+normalize	ex02/Vector.class.php	/^	public function normalize() :Vector{  \/\/retourne le vecteur normalise$/;"	f
+normalize	ex03/Vector.class.php	/^	public function normalize()\/\/ :Vector$/;"	f
+normalize	ex04/Vector.class.php	/^	public function normalize()\/\/ :Vector$/;"	f
+opposite	ex02/Vector.class.php	/^	public function opposite() :Vector{ \/\/ le vecteur oppose$/;"	f
+opposite	ex03/Vector.class.php	/^	public function opposite()\/\/ :Vector$/;"	f
+opposite	ex04/Vector.class.php	/^	public function opposite()\/\/ :Vector$/;"	f
+oppv	ex04/Camera.class.php	/^		$oppv = $v->opposite();$/;"	v
+orig2	ex02/main_02.php	/^$orig2 = new Vertex( array( 'x' => 23.87, 'y' => -37.95, 'z' => 78.34 ) );$/;"	v
+origin	main_05.php	/^$origin = $cam->watchVertex( $origin );$/;"	v
+origin	main_05.php	/^$origin = New Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0 ) );$/;"	v
+random	ex00/main_00.php	/^$random = new Color( array( 'red' => 12.3, 'green' => 31.2, 'blue' => 23.1 ) );$/;"	v
+random	main_00.php	/^$random = new Color( array( 'red' => 12.3, 'green' => 31.2, 'blue' => 23.1 ) );$/;"	v
+red	ex00/Color.class.php	/^		$this->red = floor($kwargs['red']);$/;"	v
+red	ex00/Color.class.php	/^		$this->red = floor(($kwargs['rgb'] &   0xff0000) >> 16);$/;"	v
+red	ex00/Color.class.php	/^public $red = 0;$/;"	v
+red	ex00/main_00.php	/^$red     = new Color( array( 'red' => 0xff, 'green' => 0   , 'blue' => 0    ) );$/;"	v
+red	ex01/Color.class.php	/^		$this->red = floor($kwargs['red']);$/;"	v
+red	ex01/Color.class.php	/^		$this->red = floor(($kwargs['rgb'] &   0xff0000) >> 16);$/;"	v
+red	ex01/Color.class.php	/^public $red = 0;$/;"	v
+red	ex01/main_01.php	/^$red   = new Color( array( 'red' => 255, 'green' =>   0, 'blue' =>   0 ) );$/;"	v
+red	ex02/Color.class.php	/^		$this->red = floor($kwargs['red']);$/;"	v
+red	ex02/Color.class.php	/^		$this->red = floor(($kwargs['rgb'] &   0xff0000) >> 16);$/;"	v
+red	ex02/Color.class.php	/^public $red = 0;$/;"	v
+red	ex03/Color.class.php	/^		$this->red = floor($kwargs['red']);$/;"	v
+red	ex03/Color.class.php	/^		$this->red = floor(($kwargs['rgb'] &   0xff0000) >> 16);$/;"	v
+red	ex03/Color.class.php	/^public $red = 0;$/;"	v
+red	ex04/Color.class.php	/^		$this->red = floor($kwargs['red']);$/;"	v
+red	ex04/Color.class.php	/^		$this->red = floor(($kwargs['rgb'] &   0xff0000) >> 16);$/;"	v
+red	ex04/Color.class.php	/^public $red = 0;$/;"	v
+red	main_00.php	/^$red     = new Color( array( 'red' => 0xff, 'green' => 0   , 'blue' => 0    ) );$/;"	v
+red	main_01.php	/^$red   = new Color( array( 'red' => 255, 'green' =>   0, 'blue' =>   0 ) );$/;"	v
+red	main_05.php	/^	$red     = new Color( array( 'red' => 0xff, 'green' => 0   , 'blue' => 0    ) );$/;"	v
+red	main_05.php	/^	$red   = new Color( array( 'red' => 0xff, 'green' => 0   , 'blue' => 0    ) );$/;"	v
+renderer	main_05.php	/^$renderer = new Render( 640, 480, 'pic.png' );$/;"	v
+repere	main_05.php	/^$repere = $S->transformMesh( $repere );$/;"	v
+repere	main_05.php	/^$repere = $cam->watchMesh( $repere );$/;"	v
+repere	main_05.php	/^$repere = makeRepere();$/;"	v
+result	ex02/Vector.class.php	/^			$result = $haut \/ $bas;$/;"	v
+result	ex02/Vector.class.php	/^			$result = 0;$/;"	v
+result	ex02/Vector.class.php	/^			$result = new Vector(    array( 'dest' => $vertex)   );$/;"	v
+result	ex02/Vector.class.php	/^		$result = $this->_x * $rhs->_x + $this->_y * $rhs->_y + $this->_z * $rhs->_z;$/;"	v
+result	ex02/Vector.class.php	/^		$result = $this->_x * $this->_x + $this->_y * $this->_y + $this->_z * $this->_z;$/;"	v
+result	ex02/Vector.class.php	/^		$result = new Vector(    array( 'dest' => $vertex)   );$/;"	v
+result	ex02/Vector.class.php	/^		$result = sqrt($result);$/;"	v
+result	ex03/Vector.class.php	/^			$result = $haut \/ $bas;$/;"	v
+result	ex03/Vector.class.php	/^			$result = 0;$/;"	v
+result	ex03/Vector.class.php	/^			$result = new Vector(    array( 'dest' => $vertex)   );$/;"	v
+result	ex03/Vector.class.php	/^		$result = $this->_x * $rhs->_x + $this->_y * $rhs->_y + $this->_z * $rhs->_z;$/;"	v
+result	ex03/Vector.class.php	/^		$result = $this->_x * $this->_x + $this->_y * $this->_y + $this->_z * $this->_z;$/;"	v
+result	ex03/Vector.class.php	/^		$result = new Vector(    array( 'dest' => $vertex)   );$/;"	v
+result	ex03/Vector.class.php	/^		$result = sqrt($result);$/;"	v
+result	ex04/Vector.class.php	/^			$result = $haut \/ $bas;$/;"	v
+result	ex04/Vector.class.php	/^			$result = 0;$/;"	v
+result	ex04/Vector.class.php	/^			$result = new Vector(    array( 'dest' => $vertex)   );$/;"	v
+result	ex04/Vector.class.php	/^		$result = $this->_x * $rhs->_x + $this->_y * $rhs->_y + $this->_z * $rhs->_z;$/;"	v
+result	ex04/Vector.class.php	/^		$result = $this->_x * $this->_x + $this->_y * $this->_y + $this->_z * $this->_z;$/;"	v
+result	ex04/Vector.class.php	/^		$result = new Vector(    array( 'dest' => $vertex)   );$/;"	v
+result	ex04/Vector.class.php	/^		$result = sqrt($result);$/;"	v
+scalarProduct	ex02/Vector.class.php	/^	public function scalarProduct($k) :Vector{ \/\/le produit du vecteur avec un scalaire$/;"	f
+scalarProduct	ex03/Vector.class.php	/^	public function scalarProduct($k)\/\/ :Vector$/;"	f
+scalarProduct	ex04/Vector.class.php	/^	public function scalarProduct($k)\/\/ :Vector$/;"	f
+setColor	ex01/Vertex.class.php	/^	function setColor($color) {$this->_color = $color;}$/;"	f
+setColor	ex02/Vertex.class.php	/^	function setColor($color) {$this->_color = $color;}$/;"	f
+setColor	ex03/Vertex.class.php	/^	function setColor($color) {$this->_color = $color;}$/;"	f
+setColor	ex04/Vertex.class.php	/^	function setColor($color) {$this->_color = $color;}$/;"	f
+setMat	ex03/Matrix.class.php	/^	public function setMat($x, $y, $val)$/;"	f
+setMat	ex04/Matrix.class.php	/^	public function setMat($x, $y, $val)$/;"	f
+setW	ex01/Vertex.class.php	/^	function setW($w) {$this->_w = $w;}$/;"	f
+setW	ex02/Vertex.class.php	/^	function setW($w) {$this->_w = $w;}$/;"	f
+setW	ex03/Vertex.class.php	/^	function setW($w) {$this->_w = $w;}$/;"	f
+setW	ex04/Vertex.class.php	/^	function setW($w) {$this->_w = $w;}$/;"	f
+setX	ex01/Vertex.class.php	/^	function setX($x) {$this->_x = $x;}$/;"	f
+setX	ex02/Vertex.class.php	/^	function setX($x) {$this->_x = $x;}$/;"	f
+setX	ex03/Vertex.class.php	/^	function setX($x) {$this->_x = $x;}$/;"	f
+setX	ex04/Vertex.class.php	/^	function setX($x) {$this->_x = $x;}$/;"	f
+setY	ex01/Vertex.class.php	/^	function setY($y) {$this->_y = $y;}$/;"	f
+setY	ex02/Vertex.class.php	/^	function setY($y) {$this->_y = $y;}$/;"	f
+setY	ex03/Vertex.class.php	/^	function setY($y) {$this->_y = $y;}$/;"	f
+setY	ex04/Vertex.class.php	/^	function setY($y) {$this->_y = $y;}$/;"	f
+setZ	ex01/Vertex.class.php	/^	function setZ($z) {$this->_z = $z;}$/;"	f
+setZ	ex02/Vertex.class.php	/^	function setZ($z) {$this->_z = $z;}$/;"	f
+setZ	ex03/Vertex.class.php	/^	function setZ($z) {$this->_z = $z;}$/;"	f
+setZ	ex04/Vertex.class.php	/^	function setZ($z) {$this->_z = $z;}$/;"	f
+sqrA	ex01/main_01.php	/^$sqrA = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0 ) );$/;"	v
+sqrA	main_01.php	/^$sqrA = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0 ) );$/;"	v
+sqrB	ex01/main_01.php	/^$sqrB = new Vertex( array( 'x' => 4.2, 'y' => 0.0, 'z' => 0.0 ) );$/;"	v
+sqrB	main_01.php	/^$sqrB = new Vertex( array( 'x' => 4.2, 'y' => 0.0, 'z' => 0.0 ) );$/;"	v
+sqrC	ex01/main_01.php	/^$sqrC = new Vertex( array( 'x' => 4.2, 'y' => 4.2, 'z' => 0.0 ) );$/;"	v
+sqrC	main_01.php	/^$sqrC = new Vertex( array( 'x' => 4.2, 'y' => 4.2, 'z' => 0.0 ) );$/;"	v
+sqrD	ex01/main_01.php	/^$sqrD = new Vertex( array( 'x' => 0.0, 'y' => 4.2, 'z' => 0.0 ) );$/;"	v
+sqrD	main_01.php	/^$sqrD = new Vertex( array( 'x' => 0.0, 'y' => 4.2, 'z' => 0.0 ) );$/;"	v
+str	ex01/Vertex.class.php	/^		$str = "Vertex( x: ".sprintf("%3.2f", $this->getX()) .$/;"	v
+str	ex02/Vertex.class.php	/^		$str = "Vertex( x: ".sprintf("%3.2f", $this->getX()) .$/;"	v
+str	ex03/Vertex.class.php	/^		$str = "Vertex( x: ".sprintf("%3.2f", $this->getX()) .$/;"	v
+str	ex04/Vertex.class.php	/^		$str = "Vertex( x: ".sprintf("%3.2f", $this->getX()) .$/;"	v
+sub	ex00/Color.class.php	/^function sub($to_sub) {$/;"	f
+sub	ex01/Color.class.php	/^function sub($to_sub) {$/;"	f
+sub	ex02/Color.class.php	/^function sub($to_sub) {$/;"	f
+sub	ex02/Vector.class.php	/^	public function sub(Vector $rhs) :Vector{ \/\/difference de deux vecteur$/;"	f
+sub	ex03/Color.class.php	/^function sub($to_sub) {$/;"	f
+sub	ex03/Vector.class.php	/^	public function sub(Vector $rhs)\/\/ :Vector$/;"	f
+sub	ex04/Color.class.php	/^function sub($to_sub) {$/;"	f
+sub	ex04/Vector.class.php	/^	public function sub(Vector $rhs)\/\/ :Vector$/;"	f
+symetrie_diagonal	ex04/Camera.class.php	/^	private function symetrie_diagonal(Matrix $mat)$/;"	f
+tR	ex04/Camera.class.php	/^		$tR = $this->_orientation->symetrie_diagonal($this->_orientation);$/;"	v
+tT	ex04/Camera.class.php	/^		$tT = new Matrix(array('preset' => Matrix::TRANSLATION, 'vtc'=> $oppv));$/;"	v
+test	ex04/Camera.class.php	/^	private function test($kwargs)$/;"	f
+tmp	ex04/Camera.class.php	/^		$tmp = $mat->getMat(1, 0);$/;"	v
+tmp	ex04/Camera.class.php	/^		$tmp = $mat->getMat(2, 0);$/;"	v
+tmp	ex04/Camera.class.php	/^		$tmp = $mat->getMat(2, 1);$/;"	v
+tmp	ex04/Camera.class.php	/^		$tmp = $mat->getMat(3, 0);$/;"	v
+tmp	ex04/Camera.class.php	/^		$tmp = $mat->getMat(3, 1);$/;"	v
+tmp	ex04/Camera.class.php	/^		$tmp = $mat->getMat(3, 2);$/;"	v
+transformVertex	ex03/Matrix.class.php	/^	public function transformVertex(Vertex $vtx)\/\/ : Vertex  vertex multiply matrix$/;"	f
+transformVertex	ex04/Matrix.class.php	/^	public function transformVertex(Vertex $vtx)\/\/ : Vertex  vertex multiply matrix$/;"	f
+unitX	ex01/main_01.php	/^$unitX = new Vertex( array( 'x' => 1.0, 'y' => 0.0, 'z' => 0.0, 'color' => $green ) );$/;"	v
+unitX	main_01.php	/^$unitX = new Vertex( array( 'x' => 1.0, 'y' => 0.0, 'z' => 0.0, 'color' => $green ) );$/;"	v
+unitY	ex01/main_01.php	/^$unitY = new Vertex( array( 'x' => 0.0, 'y' => 1.0, 'z' => 0.0, 'color' => $red   ) );$/;"	v
+unitY	main_01.php	/^$unitY = new Vertex( array( 'x' => 0.0, 'y' => 1.0, 'z' => 0.0, 'color' => $red   ) );$/;"	v
+unitZ	ex01/main_01.php	/^$unitZ = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 1.0, 'color' => $blue  ) );$/;"	v
+unitZ	main_01.php	/^$unitZ = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 1.0, 'color' => $blue  ) );$/;"	v
+v	ex03/Matrix.class.php	/^		$v = new Vertex(   array('x' => $x, 'y' => $y, 'z' => $z, 'w' => $w)        );$/;"	v
+v	ex04/Camera.class.php	/^		$v = new Vertex($this->origin);$/;"	v
+v	ex04/Matrix.class.php	/^		$v = new Vertex(   array('x' => $x, 'y' => $y, 'z' => $z, 'w' => $w)        );$/;"	v
+v	main_05.php	/^$v  = new Vector( array( 'dest' => new Vertex( array( 'x' => 20.0, 'y' => 20.0, 'z' => 0.0 ) ) ) );$/;"	v
+val	ex03/Matrix.class.php	/^				$val = $this->getMat(0, $y) * $m2->getMat($x, 0) + $this->getMat(1, $y) * $m2->getMat($x, 1) + $this->getMat(2, $y) * $m2->getMat($x, 2) + $this->getMat(3, $y) * $m2->getMat($x, 3);$/;"	v
+val	ex04/Matrix.class.php	/^				$val = $this->getMat(0, $y) * $m2->getMat($x, 0) + $this->getMat(1, $y) * $m2->getMat($x, 1) + $this->getMat(2, $y) * $m2->getMat($x, 2) + $this->getMat(3, $y) * $m2->getMat($x, 3);$/;"	v
+verbose	ex00/Color.class.php	/^public static $verbose = FALSE;$/;"	v
+verbose	ex01/Color.class.php	/^public static $verbose = FALSE;$/;"	v
+verbose	ex01/Vertex.class.php	/^	public static $verbose = False;$/;"	v
+verbose	ex01/ex01.php	/^	public static $verbose = false;$/;"	v
+verbose	ex02/Color.class.php	/^public static $verbose = FALSE;$/;"	v
+verbose	ex02/Vector.class.php	/^	static $verbose = False;$/;"	v
+verbose	ex02/Vertex.class.php	/^	public static $verbose = False;$/;"	v
+verbose	ex03/Color.class.php	/^public static $verbose = FALSE;$/;"	v
+verbose	ex03/Matrix.class.php	/^	static	$verbose = False;$/;"	v
+verbose	ex03/Vector.class.php	/^	static $verbose = False;$/;"	v
+verbose	ex03/Vertex.class.php	/^	public static $verbose = False;$/;"	v
+verbose	ex04/Color.class.php	/^public static $verbose = FALSE;$/;"	v
+verbose	ex04/Matrix.class.php	/^	static	$verbose = False;$/;"	v
+verbose	ex04/Vector.class.php	/^	static $verbose = False;$/;"	v
+verbose	ex04/Vertex.class.php	/^	public static $verbose = False;$/;"	v
+vertex	ex01/ex01.php	/^$vertex = new Vertex(array('x' => 1, 'y' => 2, 'z' => 3));$/;"	v
+vertex	ex02/Vector.class.php	/^		$vertex = New Vertex(array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1));$/;"	v
+vertex	ex02/Vector.class.php	/^		$vertex = New Vertex(array('x' => 0, 'y' => 0, 'z' => 0));$/;"	v
+vertex	ex03/Vector.class.php	/^		$vertex = New Vertex(array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1));$/;"	v
+vertex	ex03/Vector.class.php	/^		$vertex = New Vertex(array('x' => 0, 'y' => 0, 'z' => 0));$/;"	v
+vertex	ex04/Vector.class.php	/^		$vertex = New Vertex(array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1));$/;"	v
+vertex	ex04/Vector.class.php	/^		$vertex = New Vertex(array('x' => 0, 'y' => 0, 'z' => 0));$/;"	v
+vtc	ex03/main_03.php	/^$vtc = new Vector( array( 'dest' => $vtx ) );$/;"	v
+vtc	main_03.php	/^$vtc = new Vector( array( 'dest' => $vtx ) );$/;"	v
+vtc1	ex02/main_02.php	/^$vtc1  = new Vector( array( 'dest' => $dest1 ) );$/;"	v
+vtc2	ex02/main_02.php	/^$vtc2  = new Vector( array( 'orig' => $orig2, 'dest' => $dest2 ) );$/;"	v
+vtcXunit	ex02/main_02.php	/^$vtcXunit = new Vector( array( 'orig' => $vtxO, 'dest' => $vtxX ) );$/;"	v
+vtcYunit	ex02/main_02.php	/^$vtcYunit = new Vector( array( 'orig' => $vtxO, 'dest' => $vtxY ) );$/;"	v
+vtcZunit	ex02/main_02.php	/^$vtcZunit = new Vector( array( 'orig' => $vtxO, 'dest' => $vtxZ ) );$/;"	v
+vtx	ex03/main_03.php	/^$vtx = new Vertex( array( 'x' => 20.0, 'y' => 20.0, 'z' => 0.0 ) );$/;"	v
+vtx	main_03.php	/^$vtx = new Vertex( array( 'x' => 20.0, 'y' => 20.0, 'z' => 0.0 ) );$/;"	v
+vtxA	ex03/main_03.php	/^$vtxA = new Vertex( array( 'x' => 1.0, 'y' => 1.0, 'z' => 0.0 ) );$/;"	v
+vtxA	main_03.php	/^$vtxA = new Vertex( array( 'x' => 1.0, 'y' => 1.0, 'z' => 0.0 ) );$/;"	v
+vtxB	ex03/main_03.php	/^$vtxB = $M->transformVertex( $vtxA );$/;"	v
+vtxB	main_03.php	/^$vtxB = $M->transformVertex( $vtxA );$/;"	v
+vtxO	ex01/main_01.php	/^$vtxO  = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0 ) );$/;"	v
+vtxO	ex02/main_02.php	/^$vtxO = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0 ) );$/;"	v
+vtxO	ex04/main_04.php	/^$vtxO = new Vertex( array( 'x' => 20.0, 'y' => 20.0, 'z' => 80.0 ) );$/;"	v
+vtxO	main_01.php	/^$vtxO  = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0 ) );$/;"	v
+vtxO	main_04.php	/^$vtxO = new Vertex( array( 'x' => 20.0, 'y' => 20.0, 'z' => 80.0 ) );$/;"	v
+vtxX	ex02/main_02.php	/^$vtxX = new Vertex( array( 'x' => 1.0, 'y' => 0.0, 'z' => 0.0 ) );$/;"	v
+vtxY	ex02/main_02.php	/^$vtxY = new Vertex( array( 'x' => 0.0, 'y' => 1.0, 'z' => 0.0 ) );$/;"	v
+vtxZ	ex02/main_02.php	/^$vtxZ = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 1.0 ) );$/;"	v
+w	ex03/Matrix.class.php	/^		$w = $vtx->getX() *  $this->getMat(0, 3) + $vtx->getY() *  $this->getMat(1, 3) + $vtx->getZ() *  $this->getMat(2, 3) + $vtx->getW() * $this->getMat(3, 3);$/;"	v
+w	ex04/Matrix.class.php	/^		$w = $vtx->getX() *  $this->getMat(0, 3) + $vtx->getY() *  $this->getMat(1, 3) + $vtx->getZ() *  $this->getMat(2, 3) + $vtx->getW() * $this->getMat(3, 3);$/;"	v
+watchVertex	ex04/Camera.class.php	/^	public function watchVertex(Vertex $worldVertex)$/;"	f
+white	ex00/main_00.php	/^$white   = $red->add( $green )->add( $blue );$/;"	v
+white	main_00.php	/^$white   = $red->add( $green )->add( $blue );$/;"	v
+white	main_05.php	/^	$white   = new Color( array( 'red' => 0xff, 'green' => 0xff, 'blue' => 0xff ) );$/;"	v
+x	ex03/Matrix.class.php	/^		$x = 0;$/;"	v
+x	ex03/Matrix.class.php	/^ 		$x = $vtx->getX() *  $this->getMat(0, 0) + $vtx->getY() *  $this->getMat(1, 0) + $vtx->getZ() *  $this->getMat(2, 0) + $vtx->getW() * $this->getMat(3, 0);$/;"	v
+x	ex04/Matrix.class.php	/^		$x = 0;$/;"	v
+x	ex04/Matrix.class.php	/^ 		$x = $vtx->getX() *  $this->getMat(0, 0) + $vtx->getY() *  $this->getMat(1, 0) + $vtx->getZ() *  $this->getMat(2, 0) + $vtx->getW() * $this->getMat(3, 0);$/;"	v
+y	ex03/Matrix.class.php	/^			$y = 0;$/;"	v
+y	ex03/Matrix.class.php	/^		$y = $vtx->getX() *  $this->getMat(0, 1) + $vtx->getY() *  $this->getMat(1, 1) + $vtx->getZ() *  $this->getMat(2, 1) + $vtx->getW() * $this->getMat(3, 1);$/;"	v
+y	ex04/Matrix.class.php	/^			$y = 0;$/;"	v
+y	ex04/Matrix.class.php	/^		$y = $vtx->getX() *  $this->getMat(0, 1) + $vtx->getY() *  $this->getMat(1, 1) + $vtx->getZ() *  $this->getMat(2, 1) + $vtx->getW() * $this->getMat(3, 1);$/;"	v
+yellow	ex00/main_00.php	/^$yellow  = $red->add( $green );$/;"	v
+yellow	main_00.php	/^$yellow  = $red->add( $green );$/;"	v
+yellow	main_05.php	/^	$yellow  = new Color( array( 'red' => 0xff, 'green' => 0xff, 'blue' => 0    ) );$/;"	v
+z	ex03/Matrix.class.php	/^		$z = $vtx->getX() *  $this->getMat(0, 2) + $vtx->getY() *  $this->getMat(1, 2) + $vtx->getZ() *  $this->getMat(2, 2) + $vtx->getW() * $this->getMat(3, 2);$/;"	v
+z	ex04/Matrix.class.php	/^		$z = $vtx->getX() *  $this->getMat(0, 2) + $vtx->getY() *  $this->getMat(1, 2) + $vtx->getZ() *  $this->getMat(2, 2) + $vtx->getW() * $this->getMat(3, 2);$/;"	v

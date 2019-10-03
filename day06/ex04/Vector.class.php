@@ -27,6 +27,7 @@ class Vector {
 			return ;
 		if (!isset($kwarg['dest']))
 		{
+			echo"bim";
 			return (NULL);
 		}
 		else
@@ -54,10 +55,10 @@ class Vector {
 		$this->_w = $this->_dest->getW() - $this->_orig->getW();
 		if (self::$verbose)
 		{
-			/* print ("Vector ( x: ".sprintf("%1.2f", $this->getX()). */
-			/* 			   " y: ".sprintf("%1.2f", $this->getY()). */
-			/* 			   " z: ".sprintf("%1.2f", $this->getZ()). */
-			/* 			   " w: ".sprintf("%1.2f", $this->getW()).") constructed".PHP_EOL); */
+			print ("Vector ( x: ".sprintf("%1.2f", $this->getX()).
+						   " y: ".sprintf("%1.2f", $this->getY()).
+						   " z: ".sprintf("%1.2f", $this->getZ()).
+						   " w: ".sprintf("%1.2f", $this->getW()).") constructed".PHP_EOL);
 		}
 	}
 
@@ -156,7 +157,7 @@ class Vector {
 		echo file_get_contents("./Vector.doc.txt");
 	}
 	public function __toString(){
-			return ("Vector ( x:".sprintf("%1.2f", $this->getX()).
+			return (" Vector ( x:".sprintf("%1.2f", $this->getX()).
 						    " y:".sprintf("%1.2f", $this->getY()).
 						    " z:".sprintf("%1.2f", $this->getZ()).
 						    " w:".sprintf("%1.2f", $this->getW())." )");

@@ -161,7 +161,7 @@ class Matrix {
 		$fov = deg2rad($fov);
 		$fov_rad = 1.0 / tan($fov / 2.0);
 		$this->_matrix[3][2] = 2 * $near * $far / ($near - $far);
-		$this->_matrix[2][2] = (-$near - $far) / ($near - $far);
+		$this->_matrix[2][2] = -(-$near - $far) / ($near - $far);
 		$this->_matrix[0][0] = $fov_rad / $ratio;   //comprend pas pk / par le ratio
 		$this->_matrix[1][1] = $fov_rad;    //OK
 		$this->_matrix[2][3] = -1.0;  //OK
