@@ -18,8 +18,6 @@ while (!feof($fd))
 $header = $array[0];
 var_dump($header);
 
-
-
 unset($array[0]);
 $index = array_search($argv[2], $header);
 if ($index == false)
@@ -30,28 +28,31 @@ if ($index == false)
 }
 echo $index;
 
-
 foreach ($array as $line)
 {
 	$i = 0;
 	foreach ($line as $string)
 	{
-	$param = array();
-	$$param = $header[$i];
+		echo "le i =>".$i.PHP_EOL;
 		var_dump($header[$i]);
+		var_dump($line[$index]);
 		var_dump($string);
-		$param[$header[$i]] = $string;
+
+		$param[$line[$index]] = $string;
+		${$param} = $header[$i];
+
+		echo PHP_EOL.PHP_EOL;
 		$i++;
 	}
-	$$param = $header[$index];
-	echo "bli :\n";
-	var_dump($$param);
-	echo "bli\n\n";
-	exit(0);
 }
 
+	echo "bli :\n";
+	echo "bli\n\n";
+
+	var_dump($nom);
 
 
+	exit(0);
 
 while (!feof(STDIN))
 {
