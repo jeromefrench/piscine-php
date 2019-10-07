@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Exercice 00</title>
+		<meta charset="utf-8"/>
 		<style>
 div{
 	background-color:red;
@@ -10,19 +11,17 @@ div{
 	border-radius:100px;
 }
 		</style>
-	</head>
-	<body>
-		<div id="demo"></div>
-	</body>
-		<script>
-			var size = 200;
-			var color_id = 0;
-			var color = ["red", "green", "blue"];
-			var my_element = document.getElementById("demo");
 
-			my_element.addEventListener("click", myFunction);
-			my_element.addEventListener("mouseout", myFunction_bis);
-			function myFunction_bis() {
+	</head>
+
+	<body>
+		<div id="balloon"></div>
+	</body>
+
+
+
+		<script>
+			function myFunction_mouse_out() {
 				size -= 10;
 				if (size < 200)
 					size = 200;
@@ -31,7 +30,7 @@ div{
 					color_id = 2;
 				apply();
 			}
-			function myFunction() {
+			function myFunction_click() {
 				size += 10;
 				if (size > 420)
 					size = 200;
@@ -46,6 +45,16 @@ div{
 				my_element.style.height = size+"px";
 				my_element.style.borderRadius = (size/2)+"px";
 			}
+
+
+			var size = 200;
+			var color_id = 0;
+			var color = ["red", "green", "blue"];
+			var my_element = document.getElementById("balloon");
+
+			my_element.addEventListener("click", myFunction_click);
+			my_element.addEventListener("mouseout", myFunction_mouse_out);
+
 
 		</script>
 

@@ -6,7 +6,7 @@
 <!-- By: jchardin <jerome.chardin@outlook.com>      +#+  +:+       +#+       -->
 <!--                                              +#+#+#+#+#+   +#+          -->
 <!-- Created: 2019/09/18 10:25:44 by jchardin          #+#    #+#            -->
-<!-- Updated: 2019/09/18 11:36:23 by jchardin         ###   ########.fr      -->
+<!-- Updated: 2019/10/07 18:05:12 by jchardin         ###   ########.fr      -->
 <!--                                                                         -->
 <!-- *********************************************************************** -->
 
@@ -26,13 +26,16 @@
 			<option value="modulo">%</option>
 		</select>
 		<input id="numb_right" type="text"/>
-		<input type="submit">
+		<input type="submit" value="Try me">
 
 		<script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
 		</script>
 		<script>
 			$(document).ready(function()
 				{
+					setInterval(ft_message, 1000 * 30);
+
+
 					var $numb_left = $('#numb_left');
 					var $numb_right = $('#numb_right');
 					var $operator = $('#operator');
@@ -42,52 +45,56 @@
 					$('input[type=submit]').click(myFunction);
 					function myFunction()
 					{
-			if ($numb_left.val() < 0 || $numb_right.val() < 0)
-			{
-				alert("Error :(");
-				return;
-			}
-			if ($operator == "plus")
-			{
-				$result= $numb_left.val() + $numb_right.val();
-			}
-			else if ($operator.val() == "moins")
-			{
-				$result= $numb_left.val() - $numb_right.val();
-			}
-			else if ($operator.val() == "time")
-			{
-				$result= $numb_left.val() * $numb_right.val();
-			}
-			else if ($operator.val() == "divide")
-			{
-				if ($numb_right.val() == 0)
-				{
-					alert("It's over 9000!");
-					console.log("It's over 9000!");
-					return;
-				}
+						if ($numb_left.val() < 0 || $numb_right.val() < 0)
+						{
+							alert("Error :(");
+							return;
+						}
+						if ($operator == "plus")
+						{
+							$result= $numb_left.val() + $numb_right.val();
+						}
+						else if ($operator.val() == "moins")
+						{
+							$result= $numb_left.val() - $numb_right.val();
+						}
+						else if ($operator.val() == "time")
+						{
+							$result= $numb_left.val() * $numb_right.val();
+						}
+						else if ($operator.val() == "divide")
+						{
+							if ($numb_right.val() == 0)
+							{
+								alert("It's over 9000!");
+								console.log("It's over 9000!");
+								return;
+							}
 
-				$result= $numb_left.val() / $numb_right.val();
-			}
-			else if ($operator.val() == "modulo")
-			{
-				if ($numb_right.val() == 0)
-				{
-					alert("It's over 9000!");
-					console.log("It's over 9000!");
-					return;
-				}
-				$result= $numb_left.val() % $numb_right.val();
-			}
-			else
-			{
-				//error
-			}
-			alert("The result is : "+$result);
-			console.log($result);
+							$result= $numb_left.val() / $numb_right.val();
+						}
+						else if ($operator.val() == "modulo")
+						{
+							if ($numb_right.val() == 0)
+							{
+								alert("It's over 9000!");
+								console.log("It's over 9000!");
+								return;
+							}
+							$result= $numb_left.val() % $numb_right.val();
+						}
+						else
+						{
+							//error
+						}
+						alert("The result is : " + $result);
+						console.log($result);
 					}
-				});
+					function ft_message()
+					{
+						alert("Please, use me...");
+					}
+				}) ;
 		</script>
 	</body>
 </html>

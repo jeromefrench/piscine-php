@@ -6,7 +6,7 @@
 <!-- By: jchardin <jerome.chardin@outlook.com>      +#+  +:+       +#+       -->
 <!--                                              +#+#+#+#+#+   +#+          -->
 <!-- Created: 2019/09/17 14:48:04 by jchardin          #+#    #+#            -->
-<!-- Updated: 2019/09/18 10:23:24 by jchardin         ###   ########.fr      -->
+<!-- Updated: 2019/10/07 17:49:08 by jchardin         ###   ########.fr      -->
 <!--                                                                         -->
 <!-- *********************************************************************** -->
 
@@ -30,38 +30,38 @@
 	<script>
 		$(document).ready(function()        //ready est declancher quand le dom est pret
 			{
+				function myFunction_mouse_out() {
+					size -= 10;
+					if (size < 200)
+						size = 200;
+					color_id -= 1;
+					if (color_id < 0)
+						color_id = 2;
+					apply();
+				}
+				function myFunction_click() {
+					size += 10;
+					if (size > 420)
+						size = 200;
+					color_id += 1;
+					if (color_id > 2)
+						color_id = 0;
+					apply();
+				}
+				function apply() {
+					$('#balloon').css({
+						backgroundColor : color[color_id],
+						width : size+"px",
+						height : size+"px",
+						borderRadius : (size/2)+"px"
+					});
+				}
 				var size = 200;
 				var color_id = 0;
 				var color = ["red", "green", "blue"];
 
-				$("#balloon").click(myFunction);
-				$("#balloon").mouseleave(myFunction_bis);
-			function myFunction_bis() {
-				size -= 10;
-				if (size < 200)
-					size = 200;
-				color_id -= 1;
-				if (color_id < 0)
-					color_id = 2;
-				apply();
-			}
-			function myFunction() {
-				size += 10;
-				if (size > 420)
-					size = 200;
-				color_id += 1;
-				if (color_id > 2)
-					color_id = 0;
-				apply();
-			}
-			function apply() {
-				$('#balloon').css({
-					backgroundColor : color[color_id],
-					width : size+"px",
-					height : size+"px",
-					borderRadius : (size/2)+"px"
-				});
-			}
+				$("#balloon").click(myFunction_click);
+				$("#balloon").mouseleave(myFunction_mouse_out);
 			});
 	</script>
 </body>
