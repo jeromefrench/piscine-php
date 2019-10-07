@@ -1,6 +1,5 @@
 <?php
 class Tyrion {
-
 	public function sleepWith($class){
 		if(get_class($class) == "Jaime")
 			print( "Not even if I'm drunk !". PHP_EOL);
@@ -9,6 +8,5 @@ class Tyrion {
 		if(get_class($class) == "Cersei")
 			print( "Not even if I'm drunk !". PHP_EOL);
 	}
-
 }
 ?>

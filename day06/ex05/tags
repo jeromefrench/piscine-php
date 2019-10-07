@@ -1,0 +1,292 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Camera	Camera.class.php	/^class Camera$/;"	c
+M	main_05.php	/^$M = $T->mult( $RX )->mult( $RY )->mult( $S );$/;"	v
+Matrix	Matrix.class.php	/^class Matrix {$/;"	c
+Ox	main_05.php	/^	$Ox = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'color' => $green ) );$/;"	v
+Oy	main_05.php	/^	$Oy = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'color' => $red   ) );$/;"	v
+Oz	main_05.php	/^	$Oz = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'color' => $blue  ) );$/;"	v
+R	main_04.php	/^$R    = new Matrix( array( 'preset' => Matrix::RY, 'angle' => M_PI ) );$/;"	v
+RX	main_05.php	/^$RX = new Matrix( array( 'preset' => Matrix::RX, 'angle' => M_PI_4 ) );$/;"	v
+RY	main_05.php	/^$RY = new Matrix( array( 'preset' => Matrix::RY, 'angle' => M_PI_4 ) );$/;"	v
+Render	Render.class.php	/^class Render$/;"	c
+S	main_05.php	/^$S  = new Matrix( array( 'preset' => Matrix::SCALE, 'scale' => 10.0 ) );$/;"	v
+T	Camera.class.php	/^		$T = new Matrix(array('preset' => Matrix::TRANSLATION, 'vtc'=> $v));$/;"	v
+T	main_05.php	/^$T  = new Matrix( array( 'preset' => Matrix::TRANSLATION, 'vtc' => $v ) );$/;"	v
+Triangle	Triangle.class.php	/^class Triangle$/;"	c
+Vector	Vector.class.php	/^class Vector {$/;"	c
+Vertex	Vertex.class.php	/^class Vertex {$/;"	c
+X	main_05.php	/^	$X  = new Vertex( array( 'x' => 1.0, 'y' => 0.0, 'z' => 0.0, 'color' => $green ) );$/;"	v
+Y	main_05.php	/^	$Y  = new Vertex( array( 'x' => 0.0, 'y' => 1.0, 'z' => 0.0, 'color' => $red   ) );$/;"	v
+Z	main_05.php	/^	$Z  = new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 1.0, 'color' => $blue  ) );$/;"	v
+_A	Triangle.class.php	/^		$this->_A = $A;$/;"	v
+_B	Triangle.class.php	/^		$this->_B = $B;$/;"	v
+_C	Triangle.class.php	/^		$this->_C = $C;$/;"	v
+__construct	Camera.class.php	/^	public function __construct(array $kwargs)$/;"	f
+__construct	Color.class.php	/^function __construct(array $kwargs) {$/;"	f
+__construct	Matrix.class.php	/^	public function __construct($kwarg)$/;"	f
+__construct	Render.class.php	/^	public function __construct($width, $height, $filename)$/;"	f
+__construct	Triangle.class.php	/^	public function __construct($A, $B, $C)$/;"	f
+__construct	Vector.class.php	/^	function __construct(array $kwarg){$/;"	f
+__construct	Vertex.class.php	/^	function __construct($kwargs) {$/;"	f
+__destruc	Matrix.class.php	/^	public function __destruc()$/;"	f
+__destruc	Render.class.php	/^	public function __destruc()$/;"	f
+__destruc	Triangle.class.php	/^	public function __destruc()$/;"	f
+__destruct	Camera.class.php	/^	public function __destruct()$/;"	f
+__destruct	Color.class.php	/^function __destruct() {$/;"	f
+__destruct	Vector.class.php	/^	function __destruct(){$/;"	f
+__destruct	Vertex.class.php	/^	function __destruct() {$/;"	f
+__toString	Camera.class.php	/^	public function __toString()$/;"	f
+__toString	Color.class.php	/^function __toString() {$/;"	f
+__toString	Matrix.class.php	/^	public function __toString()$/;"	f
+__toString	Render.class.php	/^	public function __toString()$/;"	f
+__toString	Triangle.class.php	/^	public function __toString()$/;"	f
+__toString	Vector.class.php	/^	public function __toString(){$/;"	f
+__toString	Vertex.class.php	/^	function __toString() {$/;"	f
+_angle	Matrix.class.php	/^				$this->_angle = $kwarg['angle'];$/;"	v
+_angle	Matrix.class.php	/^	private	$_angle;$/;"	v
+_color	Vertex.class.php	/^			$this->_color = $kwargs['color'];$/;"	v
+_color	Vertex.class.php	/^			$this->_color = new Color(array('rgb'=> 0xffffff));$/;"	v
+_color	Vertex.class.php	/^	private $_color;$/;"	v
+_dest	Vector.class.php	/^			$this->_dest = new Vertex(array ('x' => $kwarg['dest']->getX(),$/;"	v
+_dest	Vector.class.php	/^	private $_dest;$/;"	v
+_far	Camera.class.php	/^		$this->_far = $kwargs['far'];$/;"	v
+_far	Camera.class.php	/^	private $_far;$/;"	v
+_far	Matrix.class.php	/^			$this->_far = $kwarg['far'];$/;"	v
+_far	Matrix.class.php	/^	private	$_far;$/;"	v
+_filename	Render.class.php	/^	$this->_filename = $filename;$/;"	v
+_filename	Render.class.php	/^	private $_filename;$/;"	v
+_fov	Camera.class.php	/^		$this->_fov = $kwargs['fov'];$/;"	v
+_fov	Camera.class.php	/^	private $_fov;$/;"	v
+_fov	Matrix.class.php	/^				$this->_fov = $kwarg['fov'];$/;"	v
+_fov	Matrix.class.php	/^	private	$_fov;$/;"	v
+_height	Camera.class.php	/^		$this->_height = $kwargs['height'] \/ 2;$/;"	v
+_height	Camera.class.php	/^	private $_height;$/;"	v
+_height	Render.class.php	/^		$this->_height = $height;$/;"	v
+_height	Render.class.php	/^	private $_height;$/;"	v
+_image	Render.class.php	/^		$this->_image = imagecreatetruecolor($this->_width, $this->_height);  \/\/creer une image noire$/;"	v
+_image	Render.class.php	/^	private $_image;$/;"	v
+_matrix	Matrix.class.php	/^		$_matrix = array(array());$/;"	v
+_matrix	Matrix.class.php	/^		$this->_matrix = $this->init_matrix();$/;"	v
+_matrix	Matrix.class.php	/^	private	$_matrix;$/;"	v
+_near	Camera.class.php	/^		$this->_near = $kwargs['near'];$/;"	v
+_near	Matrix.class.php	/^			$this->_near = $kwarg['near'];$/;"	v
+_near	Matrix.class.php	/^	private	$_near;$/;"	v
+_orientation	Camera.class.php	/^		$this->_orientation = $kwargs['orientation']; \/\/ matrix de rotation pour orienter la camera$/;"	v
+_orientation	Camera.class.php	/^	private $_orientation;$/;"	v
+_orig	Vector.class.php	/^			$this->_orig = new Vertex(array ('x' => $kwarg['orig']->getX(),$/;"	v
+_orig	Vector.class.php	/^			$this->_orig = new Vertex(array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1));$/;"	v
+_orig	Vector.class.php	/^	private $_orig;$/;"	v
+_origin	Camera.class.php	/^		$this->_origin = $kwargs['origin'];  \/\/ vertex de positionement de la camera$/;"	v
+_origin	Camera.class.php	/^	private $_origin;$/;"	v
+_preset	Matrix.class.php	/^			$this->_preset = $kwarg['preset'];$/;"	v
+_preset	Matrix.class.php	/^			$this->_preset == self::RY ||$/;"	v
+_preset	Matrix.class.php	/^			$this->_preset == self::RZ)$/;"	v
+_preset	Matrix.class.php	/^	private	$_preset;$/;"	v
+_ratio	Matrix.class.php	/^			$this->_ratio = $kwarg['ratio'];$/;"	v
+_ratio	Matrix.class.php	/^	private	$_ratio;$/;"	v
+_scale	Matrix.class.php	/^				$this->_scale = $kwarg['scale'];$/;"	v
+_scale	Matrix.class.php	/^	private	$_scale;$/;"	v
+_vtc	Matrix.class.php	/^				$this->_vtc = $kwarg['vtc'];$/;"	v
+_vtc	Matrix.class.php	/^	private	$_vtc;$/;"	v
+_w	Vector.class.php	/^		$this->_w = $this->_dest->getW() - $this->_orig->getW();$/;"	v
+_w	Vector.class.php	/^	private $_w;$/;"	v
+_w	Vertex.class.php	/^			$this->_w = $kwargs['w'];$/;"	v
+_w	Vertex.class.php	/^	private $_w = 1.0;$/;"	v
+_width	Camera.class.php	/^		$this->_width = $kwargs['width'] \/ 2 ;$/;"	v
+_width	Camera.class.php	/^	private $_width;$/;"	v
+_width	Render.class.php	/^		$this->_width = $width;$/;"	v
+_width	Render.class.php	/^	private $_width;$/;"	v
+_x	Vector.class.php	/^		$this->_x = $this->_dest->getX() - $this->_orig->getX();$/;"	v
+_x	Vector.class.php	/^	private $_x;$/;"	v
+_x	Vertex.class.php	/^			$this->_x = $kwargs['x'];$/;"	v
+_x	Vertex.class.php	/^	private $_x;$/;"	v
+_y	Vector.class.php	/^		$this->_y = $this->_dest->getY() - $this->_orig->getY();$/;"	v
+_y	Vector.class.php	/^	private $_y;$/;"	v
+_y	Vertex.class.php	/^			$this->_y = $kwargs['y'];$/;"	v
+_y	Vertex.class.php	/^	private $_y;$/;"	v
+_z	Vector.class.php	/^		$this->_z = $this->_dest->getZ() - $this->_orig->getZ();$/;"	v
+_z	Vector.class.php	/^	private $_z;$/;"	v
+_z	Vertex.class.php	/^			$this->_z = $kwargs['z'];$/;"	v
+_z	Vertex.class.php	/^	private $_z;$/;"	v
+a	Camera.class.php	/^			$a = $this->watchVertex($triangle->_A);$/;"	v
+a	Matrix.class.php	/^			$a = $this->transformVertex($triangle->_A);$/;"	v
+a	main_05.php	/^	$a = new Vertex( array( 'x' => $x-$hl, 'y' => $y+$hl, 'z' => $z+$hl, 'color' => $red ) );$/;"	v
+add	Color.class.php	/^function add($to_add) {$/;"	f
+add	Vector.class.php	/^	public function add(Vector $rhs)\/\/ :Vector$/;"	f
+angle	Matrix.class.php	/^		\/* $angle = deg2rad($angle); *\/$/;"	v
+b	Camera.class.php	/^			$b = $this->watchVertex($triangle->_B);$/;"	v
+b	Matrix.class.php	/^			$b = $this->transformVertex($triangle->_B);$/;"	v
+b	Render.class.php	/^		echo $b = $color->blue;$/;"	v
+b	main_05.php	/^	$b = new Vertex( array( 'x' => $x+$hl, 'y' => $y+$hl, 'z' => $z+$hl, 'color' => $green ) );$/;"	v
+bas	Vector.class.php	/^		$bas = $this->magnitude() * $rhs->magnitude();$/;"	v
+blue	Color.class.php	/^		$this->blue = floor($kwargs['blue']);$/;"	v
+blue	Color.class.php	/^		$this->blue = floor(($kwargs['rgb'] &  0x0000ff) >> 0);$/;"	v
+blue	Color.class.php	/^public $blue = 0;$/;"	v
+blue	main_05.php	/^	$blue    = new Color( array( 'red' => 0   , 'green' => 0   , 'blue' => 0xff ) );$/;"	v
+blue	main_05.php	/^	$blue  = new Color( array( 'red' => 0   , 'green' => 0   , 'blue' => 0xff ) );$/;"	v
+c	Camera.class.php	/^			$c = $this->watchVertex($triangle->_C);$/;"	v
+c	Matrix.class.php	/^			$c = $this->transformVertex($triangle->_C);$/;"	v
+c	main_05.php	/^	$c = new Vertex( array( 'x' => $x+$hl, 'y' => $y+$hl, 'z' => $z-$hl, 'color' => $blue ) );$/;"	v
+cam	main_04.php	/^$cam  = new Camera( array( 'origin' => $vtxO,$/;"	v
+cam	main_05.php	/^$cam = new Camera( array( 'origin' => new Vertex( array( 'x' => 15.0, 'y' => 15.0, 'z' => -80.0 ) ),$/;"	v
+camVertex	Camera.class.php	/^		$camVertex = $this->view_matrix->transformVertex($worldVertex);$/;"	v
+camVertex	Camera.class.php	/^		\/* $camVertex = $this->tR->transformVertex($worldVertex); *\/$/;"	v
+color	Render.class.php	/^	$color     = new Color( array( 'red' => 0xff, 'green' => 0   , 'blue' => 0    ) );$/;"	v
+cos	Vector.class.php	/^	public function cos(vector $rhs)\/\/ float$/;"	f
+crossProduct	Vector.class.php	/^	public function crossProduct(Vector $rhs)\/\/ :Vector$/;"	f
+cube	main_05.php	/^$cube = $M->transformMesh( $cube );$/;"	v
+cube	main_05.php	/^$cube = $cam->watchMesh( $cube );$/;"	v
+cube	main_05.php	/^$cube = makeColoredCube( 0.0, 0.0, 0.0, 1.0 );$/;"	v
+cyan	main_05.php	/^	$cyan    = new Color( array( 'red' => 0   , 'green' => 0xff, 'blue' => 0xff ) );$/;"	v
+d	main_05.php	/^	$d = new Vertex( array( 'x' => $x-$hl, 'y' => $y+$hl, 'z' => $z-$hl, 'color' => $yellow ) );$/;"	v
+develop	Render.class.php	/^	public function develop()$/;"	f
+doc	Camera.class.php	/^	public static function doc()$/;"	f
+doc	Color.class.php	/^public static function doc() {$/;"	f
+doc	Matrix.class.php	/^	public static function doc()$/;"	f
+doc	Render.class.php	/^	public static function doc()$/;"	f
+doc	Triangle.class.php	/^	public static function doc()$/;"	f
+doc	Vector.class.php	/^	public function doc(){$/;"	f
+doc	Vertex.class.php	/^	public static function doc() {$/;"	f
+dotProduct	Vector.class.php	/^	public function dotProduct(Vector $rhs)\/\/ :float$/;"	f
+e	main_05.php	/^	$e = new Vertex( array( 'x' => $x-$hl, 'y' => $y-$hl, 'z' => $z+$hl, 'color' => $magenta ) );$/;"	v
+f	main_05.php	/^	$f = new Vertex( array( 'x' => $x+$hl, 'y' => $y-$hl, 'z' => $z+$hl, 'color' => $cyan ) );$/;"	v
+fd	Render.class.php	/^		$fd = fopen($this->_filename, 'w+');$/;"	v
+fd	testgd.php	/^$fd = fopen(".\/monimage.png", 'w+');$/;"	v
+fov	Matrix.class.php	/^		$fov = deg2rad($fov);$/;"	v
+fov_rad	Matrix.class.php	/^		$fov_rad = 1.0 \/ tan($fov \/ 2.0);$/;"	v
+ft_make_identity	Matrix.class.php	/^	private function ft_make_identity()$/;"	f
+ft_make_projection	Matrix.class.php	/^	private function ft_make_projection($far, $near, $fov, $ratio)$/;"	f
+ft_make_rx	Matrix.class.php	/^	private function ft_make_rx($angle)$/;"	f
+ft_make_ry	Matrix.class.php	/^	private function ft_make_ry($angle)$/;"	f
+ft_make_rz	Matrix.class.php	/^	private function ft_make_rz($angle)$/;"	f
+ft_make_scale	Matrix.class.php	/^	private function ft_make_scale($scale)$/;"	f
+ft_make_translation	Matrix.class.php	/^	private function ft_make_translation(Vector $vtc)$/;"	f
+g	Render.class.php	/^		echo $g = $color->green;$/;"	v
+g	main_05.php	/^	$g = new Vertex( array( 'x' => $x+$hl, 'y' => $y-$hl, 'z' => $z-$hl, 'color' => $grey ) );$/;"	v
+gd	testgd.php	/^$gd = imagecreatetruecolor($widht, $height);  \/\/creer une image noire$/;"	v
+getColor	Vertex.class.php	/^	function getColor() {return $this->_color;}$/;"	f
+getMat	Matrix.class.php	/^	public function getMat($x, $y)$/;"	f
+getW	Vector.class.php	/^	public function getW(){$/;"	f
+getW	Vertex.class.php	/^	function getW() {return $this->_w;}$/;"	f
+getX	Vector.class.php	/^	public function getX(){$/;"	f
+getX	Vertex.class.php	/^	function getX() {return $this->_x;}$/;"	f
+getY	Vector.class.php	/^	public function getY(){$/;"	f
+getY	Vertex.class.php	/^	function getY() {return $this->_y;}$/;"	f
+getZ	Vector.class.php	/^	public function getZ(){$/;"	f
+getZ	Vertex.class.php	/^	function getZ() {return $this->_z;}$/;"	f
+green	Color.class.php	/^		$this->green = floor($kwargs['green']);$/;"	v
+green	Color.class.php	/^		$this->green = floor(($kwargs['rgb'] & 0x00ff00) >> 8);$/;"	v
+green	Color.class.php	/^public $green = 0;$/;"	v
+green	main_05.php	/^	$green   = new Color( array( 'red' => 0   , 'green' => 0xff, 'blue' => 0    ) );$/;"	v
+green	main_05.php	/^	$green = new Color( array( 'red' => 0   , 'green' => 0xff, 'blue' => 0    ) );$/;"	v
+grey	main_05.php	/^	$grey    = new Color( array( 'red' => 70  , 'green' => 70  , 'blue' => 70   ) );$/;"	v
+h	main_05.php	/^	$h = new Vertex( array( 'x' => $x-$hl, 'y' => $y-$hl, 'z' => $z-$hl, 'color' => $white ) );$/;"	v
+haut	Vector.class.php	/^		$haut = $this->dotProduct($rhs);$/;"	v
+height	testgd.php	/^$height = 200;$/;"	v
+hl	main_05.php	/^	$hl = $l \/ 2.0;$/;"	v
+init_matrix	Matrix.class.php	/^	private function init_matrix()$/;"	f
+magenta	main_05.php	/^	$magenta = new Color( array( 'red' => 0xff, 'green' => 0   , 'blue' => 0xff ) );$/;"	v
+magnitude	Vector.class.php	/^	public function magnitude() {   \/\/retourne la longueur (ou norme) du vecteur$/;"	f
+makeColoredCube	main_05.php	/^function makeColoredCube( $x, $y, $z, $l ) {$/;"	f
+makeRepere	main_05.php	/^function makeRepere() {$/;"	f
+mat_multiply	Matrix.class.php	/^		$mat_multiply = new Matrix(array('preset' => Matrix::IDENTITY));$/;"	v
+matrix_projection	Camera.class.php	/^		$this->matrix_projection = new Matrix( array( 'preset' => Matrix::PROJECTION,$/;"	v
+matrix_projection	Camera.class.php	/^	public $matrix_projection;$/;"	v
+mult	Color.class.php	/^function mult($to_mul) {$/;"	f
+mult	Matrix.class.php	/^	public function mult(Matrix $m2)\/\/ : Matrix      matrix multiply matrix$/;"	f
+ndcVertex	Camera.class.php	/^		$ndcVertex = $this->matrix_projection->transformVertex($camVertex);$/;"	v
+new_instance	Color.class.php	/^	$this->new_instance = new Color(array('red' => ($this->red + $to_add->red), 'green' => ($this->green + $to_add->green), 'blue' => ($this->blue + $to_add->blue)));$/;"	v
+new_instance	Color.class.php	/^	$this->new_instance = new Color(array('red' => ($this->red - $to_sub->red), 'green' => ($this->green - $to_sub->green), 'blue' => ($this->blue - $to_sub->blue)));$/;"	v
+new_instance	Color.class.php	/^	$this->new_instance = new Color(array('red' => (($this->red * $to_mul)), 'green' => (($this->green * $to_mul)), 'blue' => (($this->blue * $to_mul))));$/;"	v
+norm	Vector.class.php	/^		$norm = $this->magnitude();$/;"	v
+normalize	Vector.class.php	/^	public function normalize()\/\/ :Vector$/;"	f
+opposite	Vector.class.php	/^	public function opposite()\/\/ :Vector$/;"	f
+oppv	Camera.class.php	/^		$oppv = $v->opposite();$/;"	v
+origin	main_05.php	/^$origin = $cam->watchVertex( $origin );$/;"	v
+origin	main_05.php	/^$origin = New Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0 ) );$/;"	v
+r	Render.class.php	/^		echo $r = $color->red;$/;"	v
+ratio	Matrix.class.php	/^		\/* $ratio = $this->_height \/ $this->transformMesh(width; *\/$/;"	v
+red	Color.class.php	/^		$this->red = floor($kwargs['red']);$/;"	v
+red	Color.class.php	/^		$this->red = floor(($kwargs['rgb'] &   0xff0000) >> 16);$/;"	v
+red	Color.class.php	/^public $red = 0;$/;"	v
+red	Render.class.php	/^		$red = imagecolorallocate($this->_image, $r, $g, $b);$/;"	v
+red	main_05.php	/^	$red     = new Color( array( 'red' => 0xff, 'green' => 0   , 'blue' => 0    ) );$/;"	v
+red	main_05.php	/^	$red   = new Color( array( 'red' => 0xff, 'green' => 0   , 'blue' => 0    ) );$/;"	v
+red	testgd.php	/^$red = imagecolorallocate($gd, 255, 0, 0); $/;"	v
+renderMesh	Render.class.php	/^	public function renderMesh($array_of_triangle, $mode)$/;"	f
+renderTriangle	Render.class.php	/^	public function renderTriangle(Triangle $triangle, $mode)$/;"	f
+renderVertex	Render.class.php	/^	public function renderVertex(Vertex $screenVertex)$/;"	f
+renderer	main_05.php	/^$renderer = new Render( 640, 480, 'pic.png' );$/;"	v
+repere	main_05.php	/^$repere = $S->transformMesh( $repere );$/;"	v
+repere	main_05.php	/^$repere = $cam->watchMesh( $repere );$/;"	v
+repere	main_05.php	/^$repere = makeRepere();$/;"	v
+result	Vector.class.php	/^			$result = $haut \/ $bas;$/;"	v
+result	Vector.class.php	/^			$result = 0;$/;"	v
+result	Vector.class.php	/^			$result = new Vector(    array( 'dest' => $vertex)   );$/;"	v
+result	Vector.class.php	/^		$result = $this->_x * $rhs->_x + $this->_y * $rhs->_y + $this->_z * $rhs->_z;$/;"	v
+result	Vector.class.php	/^		$result = $this->_x * $this->_x + $this->_y * $this->_y + $this->_z * $this->_z;$/;"	v
+result	Vector.class.php	/^		$result = new Vector(    array( 'dest' => $vertex)   );$/;"	v
+result	Vector.class.php	/^		$result = sqrt($result);$/;"	v
+result_array_of_triangle	Camera.class.php	/^		$result_array_of_triangle = array();$/;"	v
+result_array_of_triangle	Matrix.class.php	/^		$result_array_of_triangle = array();$/;"	v
+result_array_of_triangle	Render.class.php	/^		$result_array_of_triangle = array();$/;"	v
+result_triangle	Camera.class.php	/^			$result_triangle = new Triangle( $a,  $b, $c  );$/;"	v
+result_triangle	Matrix.class.php	/^			$result_triangle = new Triangle($a, $b, $c  );$/;"	v
+scalarProduct	Vector.class.php	/^	public function scalarProduct($k)\/\/ :Vector$/;"	f
+screnVertex	Camera.class.php	/^		$screnVertex = new Vertex( array( 'x' => $x, 'y' => $y , 'z' => 0.0 ) );$/;"	v
+setColor	Vertex.class.php	/^	function setColor($color) {$this->_color = $color;}$/;"	f
+setMat	Matrix.class.php	/^	public function setMat($x, $y, $val)$/;"	f
+setW	Vertex.class.php	/^	function setW($w) {$this->_w = $w;}$/;"	f
+setX	Vertex.class.php	/^	function setX($x) {$this->_x = $x;}$/;"	f
+setY	Vertex.class.php	/^	function setY($y) {$this->_y = $y;}$/;"	f
+setZ	Vertex.class.php	/^	function setZ($z) {$this->_z = $z;}$/;"	f
+str	Vertex.class.php	/^		$str = "Vertex( x: ".sprintf("%3.2f", $this->getX()) .$/;"	v
+sub	Color.class.php	/^function sub($to_sub) {$/;"	f
+sub	Vector.class.php	/^	public function sub(Vector $rhs)\/\/ :Vector$/;"	f
+symetrie_diagonal	Matrix.class.php	/^	public static function symetrie_diagonal(Matrix $mat)  \/\/a changer en private?$/;"	f
+tR	Camera.class.php	/^		$this->tR = Matrix::symetrie_diagonal($this->_orientation);$/;"	v
+tR	Camera.class.php	/^	public $tR;$/;"	v
+tT	Camera.class.php	/^		$tT = new Matrix(array('preset' => Matrix::TRANSLATION, 'vtc'=> $oppv));$/;"	v
+test	Camera.class.php	/^	private function test($kwargs)$/;"	f
+tmp	Matrix.class.php	/^		$tmp = $mat->getMat(1, 0);$/;"	v
+tmp	Matrix.class.php	/^		$tmp = $mat->getMat(2, 0);$/;"	v
+tmp	Matrix.class.php	/^		$tmp = $mat->getMat(2, 1);$/;"	v
+tmp	Matrix.class.php	/^		$tmp = $mat->getMat(3, 0);$/;"	v
+tmp	Matrix.class.php	/^		$tmp = $mat->getMat(3, 1);$/;"	v
+tmp	Matrix.class.php	/^		$tmp = $mat->getMat(3, 2);$/;"	v
+transformMesh	Matrix.class.php	/^	public function transformMesh($array_of_triangle)\/\/ : Vertex  vertex multiply matrix$/;"	f
+transformVertex	Matrix.class.php	/^	public function transformVertex(Vertex $vtx)\/\/ : Vertex  vertex multiply matrix$/;"	f
+v	Camera.class.php	/^		$v  = new Vector( array( 'dest' => $this->_origin ) );$/;"	v
+v	Matrix.class.php	/^		$v = new Vertex(   array('x' => $x, 'y' => $y, 'z' => $z, 'w' => $w)        );$/;"	v
+v	main_05.php	/^$v  = new Vector( array( 'dest' => new Vertex( array( 'x' => 20.0, 'y' => 20.0, 'z' => 0.0 ) ) ) );$/;"	v
+val	Matrix.class.php	/^				$val = $this->getMat(0, $y) * $m2->getMat($x, 0) + $this->getMat(1, $y) * $m2->getMat($x, 1) + $this->getMat(2, $y) * $m2->getMat($x, 2) + $this->getMat(3, $y) * $m2->getMat($x, 3);$/;"	v
+verbose	Camera.class.php	/^	public static $verbose = false;$/;"	v
+verbose	Color.class.php	/^public static $verbose = FALSE;$/;"	v
+verbose	Matrix.class.php	/^	static	$verbose = true;\/\/False;$/;"	v
+verbose	Render.class.php	/^	public static $verbose = false;$/;"	v
+verbose	Triangle.class.php	/^	public static $verbose = false;$/;"	v
+verbose	Vector.class.php	/^	static $verbose = False;$/;"	v
+verbose	Vertex.class.php	/^	public static $verbose = False;$/;"	v
+vertex	Vector.class.php	/^		$vertex = New Vertex(array ('x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1));$/;"	v
+vertex	Vector.class.php	/^		$vertex = New Vertex(array('x' => 0, 'y' => 0, 'z' => 0));$/;"	v
+view_matrix	Camera.class.php	/^		$this->view_matrix = $this->tR->mult($tT);$/;"	v
+view_matrix	Camera.class.php	/^	public $view_matrix;$/;"	v
+vtxO	main_04.php	/^$vtxO = new Vertex( array( 'x' => 20.0, 'y' => 20.0, 'z' => 80.0 ) );$/;"	v
+w	Matrix.class.php	/^		$w = $vtx->getX() *  $this->getMat(0, 3) + $vtx->getY() *  $this->getMat(1, 3) + $vtx->getZ() *  $this->getMat(2, 3) + $vtx->getW() * $this->getMat(3, 3);$/;"	v
+watchMesh	Camera.class.php	/^	public function watchMesh($array_of_triangle)\/\/ : Vertex  vertex multiply matrix$/;"	f
+watchVertex	Camera.class.php	/^	public function watchVertex(Vertex $worldVertex)$/;"	f
+white	main_05.php	/^	$white   = new Color( array( 'red' => 0xff, 'green' => 0xff, 'blue' => 0xff ) );$/;"	v
+widht	testgd.php	/^$widht = 200;$/;"	v
+x	Camera.class.php	/^		$x = ($ndcVertex->getX() * $this->_ratio);$/;"	v
+x	Matrix.class.php	/^		$x = 0;$/;"	v
+x	Matrix.class.php	/^ 		$x = $vtx->getX() *  $this->getMat(0, 0) + $vtx->getY() *  $this->getMat(1, 0) + $vtx->getZ() *  $this->getMat(2, 0) + $vtx->getW() * $this->getMat(3, 0);$/;"	v
+y	Camera.class.php	/^		$y = ($ndcVertex->getY()) ;$/;"	v
+y	Matrix.class.php	/^			$y = 0;$/;"	v
+y	Matrix.class.php	/^		$y = $vtx->getX() *  $this->getMat(0, 1) + $vtx->getY() *  $this->getMat(1, 1) + $vtx->getZ() *  $this->getMat(2, 1) + $vtx->getW() * $this->getMat(3, 1);$/;"	v
+yellow	main_05.php	/^	$yellow  = new Color( array( 'red' => 0xff, 'green' => 0xff, 'blue' => 0    ) );$/;"	v
+z	Matrix.class.php	/^		$z = $vtx->getX() *  $this->getMat(0, 2) + $vtx->getY() *  $this->getMat(1, 2) + $vtx->getZ() *  $this->getMat(2, 2) + $vtx->getW() * $this->getMat(3, 2);$/;"	v

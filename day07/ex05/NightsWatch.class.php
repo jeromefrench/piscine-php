@@ -9,12 +9,15 @@ class NightsWatch {
 	}
 	public function fight()
 	{
-		$i = 0;
-		while ($i < self::$count)
+		foreach ($this->fighter as $fighter)
 		{
-			if (class_implements(j
-			$this->fighter[$i]->fight();
-			$i++;
+			$interface = array();
+			$interface = class_implements($fighter);
+			foreach( $interface as $value)
+			{
+				if ($value == "IFighter")
+					$fighter->fight();
+			}
 		}
 	}
 }

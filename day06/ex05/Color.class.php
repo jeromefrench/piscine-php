@@ -11,13 +11,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
-//mettre les methodes prive commencer par _methode
-
-
-
-
 Class Color {
 public $red = 0;
 public $green = 0;
@@ -28,6 +21,10 @@ public static function doc() {
 	echo file_get_contents("./Color.doc.txt");
 }
 function __construct(array $kwargs) {
+	if (!(isset($kwargs)))
+	{
+		return;
+	}
 	if (array_key_exists('red', $kwargs) &&
 		array_key_exists('green', $kwargs) &&
 		array_key_exists('blue', $kwargs))
