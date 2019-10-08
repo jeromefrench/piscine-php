@@ -6,7 +6,7 @@
 //   By: jchardin <jerome.chardin@outlook.com>      +#+  +:+       +#+        //
 //                                                +#+#+#+#+#+   +#+           //
 //   Created: 2019/09/18 18:04:41 by jchardin          #+#    #+#             //
-//   Updated: 2019/09/19 13:15:23 by jchardin         ###   ########.fr       //
+//   Updated: 2019/10/08 13:33:50 by jchardin         ###   ########.fr       //
 //                                                                            //
 // ************************************************************************** //
 
@@ -16,9 +16,10 @@ $(document).ready(function(){
 
 	function myFunction()
 	{
-		var text = prompt("Pleade enter your to do element");
+		var text = prompt("Please enter your to do element");
 		//ajouter a la list csv
-		$('#list').append('<div class="todo">'+text+'</div>').click(ft_delete);
+		if (text != null)
+			$('#list').append('<div class="todo">'+text+'</div>').click(ft_delete);
 	}
 	function ft_delete(e)
 	{

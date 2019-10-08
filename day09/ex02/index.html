@@ -6,9 +6,16 @@
 <!-- By: jchardin <jerome.chardin@outlook.com>      +#+  +:+       +#+       -->
 <!--                                              +#+#+#+#+#+   +#+          -->
 <!-- Created: 2019/09/17 10:13:33 by jchardin          #+#    #+#            -->
-<!-- Updated: 2019/09/17 14:29:36 by jchardin         ###   ########.fr      -->
+<!-- Updated: 2019/10/08 11:11:36 by jchardin         ###   ########.fr      -->
 <!--                                                                         -->
 <!-- *********************************************************************** -->
+
+<?php
+	$cookie_name = "task list";
+	$cookie_value = "";
+	if (!isset($_COOKIE[$cookie_name]))
+		setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "./");//one day * 30
+?>
 
 <html>
 	<head>
@@ -22,35 +29,6 @@
 		</div>
 
 			<input id="new" type="submit" value="New"/>
+	<script src="todo.js"></script>
 	</body>
-
-	<script>
-
-		var my_listElem;
-		var my_submitElem;
-		var my_todoTab = [];
-		var inner_text = "";
-		var i;
-
-		my_submitElem = document.getElementById("new");
-		my_submitElem.addEventListener("click", new_todo);
-
-		my_listElem = document.getElementById("ft_list");
-		my_listElem.innerHTML = "bonjour";
-
-		function new_todo()
-		{
-			var text = prompt("Pleade enter your to do element");
-			var div = document.createElement("div");
-			div.innerHTML = text;
-			div.addEventListener("click", ft_delete);
-			my_listElem.insertBefore(div, my_listElem.firstChild);
-		}
-		function ft_delete()
-		{
-			var text = prompt("Etes vous sure ?");
-			if (text == "ou")
-				this.parentElement.removeChild(this);
-		}
-	</script>
 </html>
